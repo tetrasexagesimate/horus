@@ -88,7 +88,7 @@ $config = get_config_data();
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
 				if ($result)
 					{
-					echo "<table summary='Hostsummary'>";
+					echo "<table  id='rounded-corner' summary='Hostsummary'>";
 					echo create_host_header();
 				while ($host_data = $result->fetch(PDO::FETCH_ASSOC))
 					echo get_host_summary($host_data);
@@ -101,7 +101,7 @@ $config = get_config_data();
 		</div>
                 
 		<div class="row">
-			<div class="small-2 large-4 columns">...</div>
+			<div class="small-2 large-4 columns"></div>
 				<div class="small-4 large-4 columns">
 					<div class="button-bar">
 						<ul class="button-group">
@@ -110,7 +110,7 @@ $config = get_config_data();
 						</ul>
 					</div>
 				</div>
-				<div class="small-6 large-4 columns">...</div>
+				<div class="small-6 large-4 columns"></div>
 			</div>
 		</div>
     </div>
