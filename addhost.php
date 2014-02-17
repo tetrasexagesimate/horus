@@ -60,7 +60,7 @@ if (isset($_POST['savehostid']))
     <div id="row">
     	<div id="row">
         	<div id="row">
-            	<h2>Add host</h2>              
+            	<!-- <h2>Add host</h2> -->              
 				<?php
 				if (isset($id)) 
 				{
@@ -126,6 +126,12 @@ if (isset($_POST['savehostid']))
         <div class="cleaner"></div>
     </div>
 </div> 
-  
+
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+<script>
+  $(document).foundation();
+</script>  
+
 </body>
 </html>
