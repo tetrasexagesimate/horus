@@ -42,12 +42,8 @@
 										</div>
 										<div class="small-3 columns">
 											<div class="row">
-												<div class="panel callout radius">
-													<p>Settings</p>
-												</div>
-												<div class="panel callout radius">
-													<p>Refresh</p>
-												</div>
+												<p>Settings</p>
+												<p>Refresh</p>
 											</div>
 										</div>
 									</div>
