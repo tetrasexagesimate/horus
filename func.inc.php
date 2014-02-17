@@ -373,6 +373,8 @@ function create_host_header()
 	"<thead>
 		<tr>
 			<th scope='col' class='rounded-company'>Miner</th>
+			<th scope='col' class='rounded-q1'>Devs</th>
+			<th scope='col' class='rounded-q1'>Temp max</th>
 			<th scope='col' class='rounded-q1'>MH/s des</th>
 			<th scope='col' class='rounded-q1'>Util</th>
 			<th scope='col' class='rounded-q1'>MH/s 5s</th>
