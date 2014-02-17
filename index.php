@@ -48,64 +48,6 @@ $config = get_config_data();
     <?php include ('header.inc.php'); ?>
 	  
 <!-- End Header and Nav -->
-<!-- Three-up Content Blocks -->
-<div class="row">
-	<div class="small-4 columns">
-		<img src="http://placehold.it/400x300&text=[img]" />
-		<h4>This is a content section.</h4>
-		<p>Bacon</p>
-	</div>
-    <div class="small-4 columns">
-		<img src="http://placehold.it/400x300&text=[img]" />
-		<h4>This is a content section.</h4>
-		<p>Bacon</p>
-    </div>
-    <div class="small-4 columns">
-		<img src="http://placehold.it/400x300&text=[img]" />
-		<h4>This is a content section.</h4>
-		<p>Bacon</p>
-    </div>
-</div>
- 
-<!-- First Band (Slider) -->
- <?php
-					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
-				if ($result)
-					{
-					echo "<table id='rounded-corner' summary='Hostsummary'>";
-					echo create_host_header();
-				while ($host_data = $result->fetch(PDO::FETCH_ASSOC))
-					echo get_host_summary($host_data);
-					echo create_totals();
-				echo "</table>";
-					}
-				else 
-					{echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";}
-				?>
- <div class="row">
-    <div class="small-12 columns">
-       	<div class="small-12 columns">
-			
-		</div>
-                
-		<div class="row">
-			<div class="small-2 large-4 columns"></div>
-				<div class="small-4 large-4 columns">
-					<div class="button-bar">
-						<ul class="button-group">
-							<li><a href="addhost.php" class="small button">Add Host</a></li>
-							<li><a href="allgpus.php" class="small button">Expand Hosts</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="small-6 large-4 columns"></div>
-			</div>
-		</div>
-    </div>
-</div>
-  
-
-    
 <!-- Call to Action Panel -->
 <div class="row">
     <div class="large-12 columns">
@@ -115,19 +57,19 @@ $config = get_config_data();
     </div>
 </div>
 
-
-
 <!-- Nav Bar -->
+
+<div class="row">
+	<hr />
+</div>
+
+<!-- End Nav -->
  
-  <div class="row">
-  <hr />
-  </div>
- 
-  <!-- End Nav -->
- 
- <div class="row">
-  <!-- Main Page Content and Sidebar -->
-    <div class="small-9 columns">
+<!-- Main Page Content and Sidebar -->
+
+<div class="row">
+  <!-- Tab Selector -->
+	<div class="small-9 columns">
 		<div class="row">
 			<div class="small-12 columns">
 				<dl class="tabs" data-tab>
@@ -154,65 +96,76 @@ $config = get_config_data();
 			</div>
 		</div>
 	</div>
-    <!-- End Main Content -->
- 
- 
+    
+	<!-- End Tab Selector -->
+  
     <!-- Sidebar -->
  
     <aside class="small-3 columns">
- 
-      <h5>Mining Farm</h5>
-      <div class="panel">
-        <h5>SHA-256 Hashrate</h5>
-        <p>5s rate</p>
-		<p>Avg</p>
-      </div>
-	  <div class="panel">
-        <h5>Scrypt Hashrate</h5>
-        <p>5s rate</p>
-		<p>Avg</p>
-      </div>
-	  <div class="panel">
-        <h5>x Miners</h5>
-        <p>x Active (y devices)</p>
-		<p>x Inactive (y devices)</p>
-		<p>x Unavailable</p>
-		<a href="#" data-dropdown="drop" class="button dropdown">Action</a><br>
+		<h5>Mining Farm</h5>
+		<div class="panel">
+			<h5>SHA-256 Hashrate</h5>
+			<p>5s rate</p>
+			<p>Avg</p>
+		</div>
+		<div class="panel">
+			<h5>Scrypt Hashrate</h5>
+			<p>5s rate</p>
+			<p>Avg</p>
+		</div>
+		<div class="panel">
+			<h5>x Miners</h5>
+			<p>x Active (y devices)</p>
+			<p>x Inactive (y devices)</p>
+			<p>x Unavailable</p>
+			<a href="#" data-dropdown="drop" class="button dropdown">Action</a><br>
 			<ul id="drop" data-dropdown-content class="f-dropdown">
 				<li><a href="#">Add a New Miner</a></li>
 				<li><a href="#">This is another</a></li>
 				<li><a href="#">Yet another</a></li>
 			</ul>
-      </div>
+		</div>
     </aside>
  
     <!-- End Sidebar -->
   </div>
  
   <!-- End Main Content and Sidebar -->
- 
- 
-  <!-- Footer -->
- 
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr />
-      <div class="row">
-        <div class="large-6 columns">
-          <p>© Copyright no one at all. Go to town.</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
+ <?php
+					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
+				if ($result)
+					{
+					echo "<table id='rounded-corner' summary='Hostsummary'>";
+					echo create_host_header();
+				while ($host_data = $result->fetch(PDO::FETCH_ASSOC))
+					echo get_host_summary($host_data);
+					echo create_totals();
+				echo "</table>";
+					}
+				else 
+					{echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";}
+				?>
+<div class="row">
+    <div class="small-12 columns">
+       	<div class="small-12 columns">
+			
+		</div>
+                
+		<div class="row">
+			<div class="small-2 large-4 columns"></div>
+				<div class="small-4 large-4 columns">
+					<div class="button-bar">
+						<ul class="button-group">
+							<li><a href="addhost.php" class="small button">Add Host</a></li>
+							<li><a href="allgpus.php" class="small button">Expand Hosts</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="small-6 large-4 columns"></div>
+			</div>
+		</div>
     </div>
-  </footer>
-    
+</div>				
 
 
 
