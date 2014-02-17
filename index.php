@@ -94,7 +94,7 @@ ddsmoothmenu.init({
         	<div>
             	<h2>Hosts</h2>
 				 <a href="allgpus.php">Expand all Hosts</a>
-                <div class="small-1 small-centered columns>
+                <div class="small-11 small-centered columns>
 
 				<?php
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
