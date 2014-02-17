@@ -57,7 +57,7 @@ $config = get_config_data();
 	<hr />
 	<div id="myModal" class="reveal-modal" data-reveal>
 		<h2>Awesome. Add a Miner</h2>
-		<iframe name="inlineframe" src="addhost.mod.php" frameborder="0" scrolling="auto" width="500" height="180" marginwidth="5" marginheight="5" ></iframe>
+		<iframe name="inlineframe" src="addhost.mod.php" frameborder="0" scrolling="auto" marginwidth="5" marginheight="5" ></iframe>
 		<a class="close-reveal-modal">&#215;</a>
 	</div>
 	<div id="myModal1" class="reveal-modal" data-reveal>
