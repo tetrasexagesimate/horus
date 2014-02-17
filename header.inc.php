@@ -8,7 +8,7 @@ $pages = array("Home" => "index.php",
 $page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 ?>
 <div id="templatemo_header">
-	<div>
+	<div class="contian-to-grid">
 		<nav class="top-bar" data-topbar>
 			<ul class="title-area">
 				<li class="name">
