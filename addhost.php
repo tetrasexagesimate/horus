@@ -58,8 +58,8 @@ if (isset($_POST['savehostid']))
 	<?php include ('header.inc.php'); ?>
     
     <div id="row">
-    	<div>
-        	<div>
+    	<div id="row">
+        	<div id="row">
             	<h2>Add host</h2>              
 				<?php
 				if (isset($id)) 
@@ -86,50 +86,40 @@ if (isset($_POST['savehostid']))
 				}
 				?>
 
-<form name=save action="addhost.php" method="post">
-	<table id="savetable" align=center>
-		<thead>
-			<tr>
-				<th scope="col" class="rounded-company">Name</th>
-				<th scope="col" class="rounded-q1">IP / Hostname</th>
-				<th scope="col" class="rounded-q1">Port</th>
-				<th scope="col" class="rounded-q1"><?php if($Hash_Method=='scrypt'){echo "KH/s";}else{ echo "MH/s";}?> desired</th>
-			</tr>
-			<tr>
-				<td align=center><input type="text" name="macname" value=""></td>
-				<td align=center><input type="text" name="ipaddress" value=""></td>
-				<td align=center><input type="text" name="port" value="4028"></td>
-				<td align=center><input type="text" name="mhash" value=""></td>
-			</tr>
-			<tr>
-				<td colspan=4 align=center><input type=hidden name="savehostid" value="<?php echo $id; ?>"><input type="submit" value="Save"></td>
-			</tr>
-		</thead>
-	</table>
-</form>
-
-<p align=center>
-<b>Name:</b> You can enter any name you like.<BR>
-<b>IP/Hostname:</b> Enter the IP or Hostname of your cgminer cgapi enabled host. I.E. 10.10.1.10 or 192.168.1.10. You can also use FQDN so miner1.mynet.com i.e.<BR>
-<b>Port:</b> The port CGMINER is listening on (default 4028)<BR>
-<b><?php if($Hash_Method=='scrypt'){echo "KH/s";}else{ echo "MH/s";}?> desired:</b> If you already now how much <?php if($Hash_Method=='scrypt'){echo "KH/s";}else{ echo "MH/s";}?> your host will/should make, enter it here.<BR>
-<BR>
-You can change any value afterwards.<BR>
-</p>
-
-                <div class="cleaner h20"></div>
-<!--                 <a href="#" class="more float_r"></a> -->
-            </div>
-
-            <div class="cleaner"></div>
+				<form name=save action="addhost.php" method="post">
+					<table id="savetable" align=center>
+						<thead>
+							<tr>
+								<th scope="col" class="rounded-company">Name</th>
+								<th scope="col" class="rounded-q1">IP / Hostname</th>
+								<th scope="col" class="rounded-q1">Port</th>
+								<th scope="col" class="rounded-q1"><?php if($Hash_Method=='scrypt'){echo "KH/s";}else{ echo "MH/s";}?> desired</th>
+							</tr>
+							<tr>
+								<td align=center><input type="text" name="macname" value=""></td>
+								<td align=center><input type="text" name="ipaddress" value=""></td>
+								<td align=center><input type="text" name="port" value="4028"></td>
+								<td align=center><input type="text" name="mhash" value=""></td>
+							</tr>
+							<tr>
+								<td colspan=4 align=center><input type=hidden name="savehostid" value="<?php echo $id; ?>"><input type="submit" value="Save"></td>
+							</tr>
+						</thead>
+					</table>
+				</form>
+				<p align=center>
+				<b>Name:</b> You can enter any name you like.<BR>
+				<b>IP/Hostname:</b> Enter the IP or Hostname of your cgminer cgapi enabled host. I.E. 10.10.1.10 or 192.168.1.10. You can also use FQDN so miner1.mynet.com i.e.<BR>
+				<b>Port:</b> The port CGMINER is listening on (default 4028)<BR>
+				<b><?php if($Hash_Method=='scrypt'){echo "KH/s";}else{ echo "MH/s";}?> desired:</b> If you already now how much <?php if($Hash_Method=='scrypt'){echo "KH/s";}else{ echo "MH/s";}?> your host will/should make, enter it here.<BR>
+				<BR>
+				You can change any value afterwards.<BR>
+				</p>
+			</div>
 		</div>
-
-        <div class="cleaner"></div>
-        </div>
-    </div>
-    
-    <div class="cleaner"></div>
-
+	</div>
+</div>
+ 
 <div id="templatemo_footer_wrapper">
     <div id="templatemo_footer">
         <?php include("footer.inc.php"); ?>
