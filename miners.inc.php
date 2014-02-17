@@ -45,8 +45,6 @@
 												<div class="panel callout radius">
 													<p>Settings</p>
 												</div>
-											</div>
-											<div class="row">
 												<div class="panel callout radius">
 													<p>Refresh</p>
 												</div>
