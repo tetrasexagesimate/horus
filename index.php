@@ -156,7 +156,7 @@ $config = get_config_data();
 					echo get_host_summary($host_data);
 					echo create_totals();
 					echo "</table>";
-					echo $host_data;
+					echo get_host_sumary($host_data);
 					}
 				else 
 					{echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";}
