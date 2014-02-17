@@ -14,9 +14,18 @@
 							<li><a href="#" data-reveal-id="panelModal0" data-reveal>Expand</a></li>
 						</ul>
 						<div id="panelModal0" class="reveal-modal" data-reveal>
-							<h5>Add a Miner</h5>
 							<div class="row">
+							<h5>Add a Miner</h5>
 								<div class="small-3 columns">
+									<div class="row">
+									<p>Miner expected Rate</p>
+									</div>
+									<div class="row">
+									<p>Avg. Hashrate</p>
+									</div>
+									<div class="row">
+									<p>Controls</p>
+									</div>
 								</div>
 								<div class="small-9 columns">
 									<div class="row">
@@ -32,7 +41,9 @@
 											</div>
 										</div>
 									</div>
-									
+									<div class="row">
+									<p>24h Chart</p>
+									</div>
 								</div>
 							</div>
 							<div class="row">
