@@ -104,7 +104,8 @@ $config = get_config_data();
 				?>
 				</div>
                 <div class="row">
-					<div class="small-centered">
+					<div class="small-2 large-4 columns"></div>
+					<div class="small-4 large-4 columns">
 						<div class="button-bar">
 							<ul class="button-group">
 								<li><a href="addhost.php" class="small button">Add Host</a></li>
@@ -112,6 +113,7 @@ $config = get_config_data();
 							</ul>
 						</div>
 					</div>
+					<div class="small-6 large-4 columns"></div>
 				</div>
              </div>
 		</div>
