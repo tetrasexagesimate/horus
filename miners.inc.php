@@ -6,7 +6,7 @@
 					<h5>Miner Name</h5>
 					<p>5s rate</p>
 					<p>Avg rate</p>
-					<a href="#" class="tiny secondary radius button split">Split Button <span data-dropdown="drop"></span></a><br>
+					<a href="#" class="tiny secondary radius button split">Split Button <span data-dropdown="paneldrop"></span></a><br>
 						<ul id="paneldrop" class="f-dropdown" data-dropdown-content>
 							<li><a href="#">Start</a></li>
 							<li><a href="#">Start</a></li>
