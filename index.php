@@ -128,7 +128,7 @@ $config = get_config_data();
  
   <!-- Main Page Content and Sidebar -->
     <div class="small-9 columns">
-		<div class="row">
+		<div class="small-12 columns"">
 			<dl class="tabs" data-tab>
 				<dd class="active"><a href="#panel2-1">Miners</a></dd>
 				<dd><a href="#panel2-2">Devices</a></dd>
