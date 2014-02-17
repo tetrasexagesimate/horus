@@ -107,9 +107,8 @@ $config = get_config_data();
 				?>
 				</div>
                 <div class="row">
-					<div class="small-1 small-centered columns">
-						<a href="addhost.php" class="button radius">Add Host</a>
-						<a href="addgpus.php" class="button radius">Expand All Hosts</a>
+					<div class="small-2 small-centered columns">
+						<a href="addhost.php" class="button radius">Add Host</a><a href="addgpus.php" class="button radius">Expand All Hosts</a>
 					</div>
 				</div>
              </div>
