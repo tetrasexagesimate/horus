@@ -8,7 +8,33 @@ $pages = array("Home" => "index.php",
 $page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 ?>
 <div id="templatemo_header">
+	<div>
+		<nav class="top-bar" data-topbar>
+			<ul class="title-area">
+				<li class="name">
+					<h1><a href="#">My Site</a></h1>
+				</li>
+				<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+			</ul>
 
+			<section class="top-bar-section">
+			<!-- Right Nav Section -->
+				<ul class="right">
+					<li class="active"><a href="#">Right Button Active</a></li>
+					<li class="has-dropdown">
+					<a href="#">Right Button with Dropdown</a>
+						<ul class="dropdown">
+							<li><a href="#">First link in dropdown</a></li>
+						</ul>
+					</li>
+				</ul>
+			<!-- Left Nav Section -->
+				<ul class="left">
+					<li><a href="#">Left Nav Button</a></li>
+				</ul>
+			</section>
+		</nav>
+	</div>
     <div id="site_title"><h1><a href="index.php">Main</a></h1></div>
 
     <div id="templatemo_menu" class="ddsmoothmenu">
