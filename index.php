@@ -45,7 +45,7 @@ $config = get_config_data();
 <body>
  
  <div class="row">
-    <?php include ('header.inc.php'); ?>
+    <!-- <?php include ('header.inc.php'); ?> -->
 	  
 <!-- End Header and Nav -->
 <!-- Call to Action Panel -->
@@ -114,9 +114,12 @@ $config = get_config_data();
 			<p>x Unavailable</p>
 			<a href="#" data-dropdown="drop" class="button dropdown">Action</a><br>
 			<ul id="drop" data-dropdown-content class="f-dropdown">
-				<li><a href="#">Add a New Miner</a></li>
+				<li><a href="addhost.php">Add a New Miner</a></li>
 				<li><a href="#">This is another</a></li>
 				<li><a href="#">Yet another</a></li>
+				<li><a href="config.php">Configuration</a></li>
+				<li><a href="faq.php">FAQ</a></li>
+				<li><a href="contact.php">Contact/Donate</a></li>
 			</ul>
 		</div>
     </aside>
