@@ -113,7 +113,7 @@ ddsmoothmenu.init({
 				</div>
 
                 <div class="row">
-					<div class="small-3 small-centered columns">
+					<div class="small-1 small-centered columns">
 						<a href="addhost.php" class="button radius">Add Host</a>
 					</div>
 				<table align=center>
