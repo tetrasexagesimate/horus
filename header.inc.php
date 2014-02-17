@@ -25,7 +25,7 @@ $page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 			</section>
 		</nav>
 	</div>
-	
+<div id="templatemo_wrapper">	
 <div id="templatemo_header">
     <div id="site_title"><h1><a href="index.php">Main</a></h1></div>
 

@@ -65,7 +65,7 @@ ddsmoothmenu.init({
 </head>
 <body>
 
-<div id="templatemo_wrapper">
+
 
 <?php include ('header.inc.php'); ?>
     
