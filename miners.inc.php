@@ -48,7 +48,7 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class=small-12 columns">	
+										<div class="small-12 columns">	
 											<div class="panel callout radius">
 												<p>24h Chart</p>
 												<p>24h Chart</p>
