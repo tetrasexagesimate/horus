@@ -61,26 +61,23 @@ $config = get_config_data();
   
 <!-- End Header and Nav -->
 <!-- Three-up Content Blocks -->
-  <div class="row">
+<div class="row">
+	<div class="large-4 columns">
+		<img src="http://placehold.it/400x300&text=[img]" />
+		<h4>This is a content section.</h4>
+		<p>Bacon</p>
+	</div>
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]" />
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+		<img src="http://placehold.it/400x300&text=[img]" />
+		<h4>This is a content section.</h4>
+		<p>Bacon</p>
     </div>
-    
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]" />
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+		<img src="http://placehold.it/400x300&text=[img]" />
+		<h4>This is a content section.</h4>
+		<p>Bacon</p>
     </div>
-    
-    <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]" />
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-    </div>
-  
-    </div>
+</div>
  
 <!-- First Band (Slider) -->
  
@@ -107,8 +104,11 @@ $config = get_config_data();
 				?>
 				</div>
                 <div class="row">
-					<div class="small-2 small-centered columns">
-						<a href="addhost.php" class="button radius">Add Host</a><a href="addgpus.php" class="button radius">Expand All Hosts</a>
+					<div class="small-1 small-centered columns">
+						<a href="addhost.php" class="button radius">Add Host</a>
+					</div>
+					<div class="small-1 small-centered columns">
+						<a href="addgpus.php" class="button radius">Expand All Hosts</a>
 					</div>
 				</div>
              </div>
@@ -124,29 +124,12 @@ $config = get_config_data();
 <!-- Call to Action Panel -->
 <div class="row">
     <div class="large-12 columns">
-    
-      <div class="panel">
-        <?php include("footer.inc.php"); ?>
-		<!-- <h4>Get in touch!</h4>
-            
-        <div class="row">
-          <div class="large-9 columns">
-            <p>We'd love to hear from you, you attractive person you.</p>
-          </div>
-          <div class="large-3 columns">
-            <a href="#" class="radius button right">Contact Us</a>
-          </div>
-        </div> -->
-      </div>
-      
+		<div class="panel">
+			<?php include("footer.inc.php"); ?>
+		</div>     
     </div>
-  </div>
-<!-- <div id="templatemo_footer_wrapper">
-    <div id="templatemo_footer">
-        
-        <div class="cleaner"></div>
-    </div>
-</div> --> 
+</div>
+
 
 <script src="/js/vendor/jquery.js"></script>
 <script src="/js/vendor/fastclick.js"></script>
