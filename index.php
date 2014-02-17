@@ -138,7 +138,7 @@ $config = get_config_data();
 				</dl>
 				<div class="tabs-content">
 					<div class="content active" id="panel2-1">
-						<!-- <?php include ('miners.inc.php'); ?> -->
+						<?php include ('miners.inc.php'); ?>
 						<p>Bingo</p>
 					</div>
 					<div class="content" id="panel2-2">
