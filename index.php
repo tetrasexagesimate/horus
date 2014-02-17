@@ -49,13 +49,7 @@ $config = get_config_data();
 	  
 <!-- End Header and Nav -->
 <!-- Call to Action Panel -->
-<div class="row">
-    <div class="large-12 columns">
-		<div class="panel">
-			<?php include("footer.inc.php"); ?>
-		</div>     
-    </div>
-</div>
+
 
 <!-- Nav Bar -->
 
@@ -130,6 +124,14 @@ $config = get_config_data();
     <!-- End Sidebar -->
   </div>
  
+ <div class="row">
+    <div class="large-12 columns">
+		<div class="panel">
+			<?php include("footer.inc.php"); ?>
+		</div>     
+    </div>
+</div>
+
   <!-- End Main Content and Sidebar -->
  <?php
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
