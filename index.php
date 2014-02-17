@@ -56,7 +56,6 @@ $config = get_config_data();
 <div class="row">
 	<hr />
 	<div id="myModal" class="reveal-modal" data-reveal>
-		<?php include ('addhost.mod.php'); ?>
 		<h2>Awesome. Add a Miner</h2>
 		<a class="close-reveal-modal">&#215;</a>
 	</div>
