@@ -10,7 +10,7 @@ $page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 <div class="contain-to-grid">
 		<nav class="top-bar" data-topbar>
 			<ul class="title-area">
-				<li class="name"><h1><a href="#">Horus</a></h1>
+				<li class="name"><h1><a href="/">Horus</a></h1>
 				</li>
 				<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
 			</ul>
