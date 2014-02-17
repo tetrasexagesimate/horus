@@ -112,18 +112,21 @@ ddsmoothmenu.init({
 				?>
 				</div>
 
-                <table align=center><tr><td align=center><a href="addhost.php"><img src="images/add.png" border=0></a></td><td>Add host</td></tr></table>
-
-                
-                <div class="cleaner h20"></div>
-<!--                 <a href="#" class="more float_r"></a> -->
-            </div>
-
-            <div class="cleaner"></div>
+                <div class="row">
+					<div class="small-3 small-centered columns">
+						<a href="addhost.php" class="button radius">Add Host</a>
+					</div>
+				<table align=center>
+					<tr>
+						<td align=center>
+							<a href="addhost.php"><img src="images/add.png" border=0></a>	
+						</td>
+						<td>Add host</td>
+					</tr>
+				</table>
+				</div>
+             </div>
 		</div>
-
-        <div class="cleaner"></div>
-        </div>
     </div>
 	
 	<div id="slider">
