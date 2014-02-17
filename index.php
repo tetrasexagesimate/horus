@@ -125,10 +125,10 @@ $config = get_config_data();
  
   <!-- End Nav -->
  
- 
+ <div class="row">
   <!-- Main Page Content and Sidebar -->
     <div class="small-9 columns">
-		<div class="small-12 columns"">
+		<div class="small-12 columns">
 			<dl class="tabs" data-tab>
 				<dd class="active"><a href="#panel2-1">Miners</a></dd>
 				<dd><a href="#panel2-2">Devices</a></dd>
@@ -138,19 +138,15 @@ $config = get_config_data();
 			<div class="tabs-content">
 				<div class="content" id="panel2-1">
 					<?php include ('miners.inc.php'); ?>
-					<p>First panel content goes here...</p>
 				</div>
 				<div class="content" id="panel2-2">
 					<?php include ('devices.inc.php'); ?>
-					<p>Second panel content goes here...</p>
 				</div>
 				<div class="content" id="panel2-3">
 					<?php include ('charts.inc.php'); ?>
-					<p>Third panel content goes here...</p>
 				</div>
 				<div class="content" id="panel2-4">
 					<?php include ('settings.inc.php'); ?>
-					<p>Fourth panel content goes here...</p>
 				</div>
 			</div>
 		</div>
@@ -160,7 +156,7 @@ $config = get_config_data();
  
     <!-- Sidebar -->
  
-    <aside class="large-3 columns">
+    <aside class="small-3 columns">
  
       <h5>Mining Farm</h5>
       <div class="panel">
