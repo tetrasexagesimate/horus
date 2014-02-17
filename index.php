@@ -55,7 +55,7 @@ $config = get_config_data();
 
 <div class="row">
 	<hr />
-	<div id="myModal" class="reveal-modal" data-reveal>
+	<div id="myModal0" class="reveal-modal" data-reveal>
 		<h5>Add a Miner</h5>
 		<iframe name="inlineframe" src="addhost.mod.php" frameborder="0" scrolling="auto" width="100%" height="50%" marginwidth="5" marginheight="5" ></iframe>
 		<a class="close-reveal-modal">&#215;</a>
@@ -124,12 +124,12 @@ $config = get_config_data();
 			<p>x Unavailable</p>
 			<a href="#" data-dropdown="drop" class="button dropdown">Action</a><br>
 			<ul id="drop" data-dropdown-content class="f-dropdown">
-				<li><a href="#" data-reveal-id="myModal1" data-reveal>Add a New Miner</a></li>
-				<li><a href="#" data-reveal-id="myModal" data-reveal>This is another</a></li>
-				<li><a href="#">Yet another</a></li>
-				<li><a href="config.php">Configuration</a></li>
-				<li><a href="faq.php">FAQ</a></li>
-				<li><a href="contact.php">Contact/Donate</a></li>
+				<li><a href="#" data-reveal-id="myModal0" data-reveal>Add a New Miner</a></li>
+				<li><a href="#" data-reveal-id="myModal1" data-reveal>This is another</a></li>
+				<li><a href="#" data-reveal-id="myModal2" data-reveal>Yet another</a></li>
+				<li><a href="#" data-reveal-id="myModal3" data-reveal>Configuration</a></li>
+				<li><a href="#" data-reveal-id="myModal4" data-reveal>FAQ</a></li>
+				<li><a href="#" data-reveal-id="myModal5" data-reveal>Contact/Donate</a></li>
 			</ul>			
 		</div>
     </aside>
