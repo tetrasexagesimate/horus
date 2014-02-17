@@ -55,12 +55,6 @@ $config = get_config_data();
 
 <div class="row">
 	<hr />
-	<div id="myModal" class="reveal-modal" data-reveal>
-		<h2>Awesome. I have it.</h2>
-		<p class="lead">Your couch.  It is mine.</p>
-		<p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
-		<a class="close-reveal-modal">&#215;</a>
-	</div>
 </div>
 
 <!-- End Nav -->
@@ -119,13 +113,26 @@ $config = get_config_data();
 			<p>x Unavailable</p>
 			<a href="#" data-dropdown="drop" class="button dropdown">Action</a><br>
 			<ul id="drop" data-dropdown-content class="f-dropdown">
-				<li><a href="addhost.php">Add a New Miner</a></li>
+				<li><a href="#" data-reveal-id="myModal" data-reveal>Add a New Miner</a></li>
 				<li><a href="#" data-reveal-id="myModal" data-reveal>This is another</a></li>
 				<li><a href="#">Yet another</a></li>
 				<li><a href="config.php">Configuration</a></li>
 				<li><a href="faq.php">FAQ</a></li>
 				<li><a href="contact.php">Contact/Donate</a></li>
 			</ul>
+			<div id="myModal" class="reveal-modal" data-reveal>
+				<?php include ('addhost.php'); ?>
+				<h2>Awesome. I have it.</h2>
+				<p class="lead">Your couch.  It is mine.</p>
+				<p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
+			<div id="myModal1" class="reveal-modal" data-reveal>
+				<h2>Awesome. I have it.</h2>
+				<p class="lead">Your couch.  It is mine.</p>
+				<p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
 		</div>
     </aside>
  
