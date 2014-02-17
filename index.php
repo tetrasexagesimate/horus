@@ -176,11 +176,16 @@ $config = get_config_data();
  
     <aside class="large-3 columns">
  
-      <h5>Categories</h5>
+      <h5>Mining Farm</h5>
       <div class="panel">
-        <h5>Featured</h5>
-        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
-        <a href="#">Read More →</a>
+        <h5>SHA-256 Hashrate</h5>
+        <p>5s rate</p>
+		<p>Avg</p>
+      </div>
+	  <div class="panel">
+        <h5>Scrypt Hashrate</h5>
+        <p>5s rate</p>
+		<p>Avg</p>
       </div>
 	  <ul class="side-nav">
         <li><a href="#">News</a></li>
