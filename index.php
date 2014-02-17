@@ -128,8 +128,8 @@ $config = get_config_data();
 </div>
 
 
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/fastclick.js"></script>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
 <script>
   $(document).foundation();
 </script>
