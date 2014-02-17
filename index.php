@@ -127,10 +127,7 @@ $config = get_config_data();
  
  
   <!-- Main Page Content and Sidebar -->
- 
-  
-    <!-- Main Blog Content -->
-    <div class="large-9 columns" role="content">
+    <div class="small-9 columns">
 		<div class="row">
 			<dl class="tabs" data-tab>
 				<dd class="active"><a href="#panel2-1">Miners</a></dd>
@@ -140,7 +137,7 @@ $config = get_config_data();
 			</dl>
 			<div class="tabs-content">
 				<div class="content active" id="panel2-1">
-					<?php include ('miner.inc.php'); ?>
+					<?php include ('miners.inc.php'); ?>
 					<p>First panel content goes here...</p>
 				</div>
 				<div class="content" id="panel2-2">
@@ -156,42 +153,7 @@ $config = get_config_data();
 					<p>Fourth panel content goes here...</p>
 				</div>
 			</div>
-		<div class="row">
-			<div class="small-4 columns">
-				<img src="http://placehold.it/400x300&text=[img]" />
-				<h4>This is a content section.</h4>
-				<p>Bacon</p>
-			</div>
-			<div class="small-4 columns">
-				<img src="http://placehold.it/400x300&text=[img]" />
-				<h4>This is a content section.</h4>
-				<p>Bacon</p>
-			</div>
-			<div class="small-4 columns">
-				<img src="http://placehold.it/400x300&text=[img]" />
-				<h4>This is a content section.</h4>
-				<p>Bacon</p>
-			</div>
 		</div>
-     <hr />
-		<div class="row">
-			<div class="small-4 columns">
-				<img src="http://placehold.it/400x300&text=[img]" />
-				<h4>This is a content section.</h4>
-				<p>Bacon</p>
-			</div>
-			<div class="small-4 columns">
-				<img src="http://placehold.it/400x300&text=[img]" />
-				<h4>This is a content section.</h4>
-				<p>Bacon</p>
-			</div>
-			<div class="small-4 columns">
-				<img src="http://placehold.it/400x300&text=[img]" />
-				<h4>This is a content section.</h4>
-				<p>Bacon</p>
-			</div>
-		</div>
-    </div>
  
     <!-- End Main Content -->
  
