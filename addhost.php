@@ -57,59 +57,55 @@ if (isset($_POST['savehostid']))
 <div id="row">
 	<?php include ('header.inc.php'); ?>
     
-    <div id="templatemo_main">
-    	<div class="col_fw">
-        	<div class="templatemo_megacontent">
-            	<h2>Add host</h2>
+    <div id="row">
+    	<div>
+        	<div>
+            	<h2>Add host</h2>              
+				<?php
+				if (isset($id)) 
+				{
+				if ($host_data)
+				{
+				echo "<b>Host has been added !</b><BR>";
 
-                <div class="cleaner h20"></div>
-<?php
-if (isset($id)) 
-{
-  if ($host_data)
-  {
-    echo "<b>Host has been added !</b><BR>";
-
-    echo "<table id='rounded-corner' summary='HostSummary' align='center'>";
-    echo create_host_header();
-    echo get_host_status($host_data);
-    echo "</table>";
+				echo "<table id='rounded-corner' summary='HostSummary' align='center'>";
+				echo create_host_header();
+				echo get_host_status($host_data);
+				echo "</table>";
   
-    echo "<table id='rounded-corner' summary='PoolSummary' align='center'>";
-    echo create_pool_header();
-    echo process_pools_disp($host_data);
-    echo "</table>";
+				echo "<table id='rounded-corner' summary='PoolSummary' align='center'>";
+				echo create_pool_header();
+				echo process_pools_disp($host_data);
+				echo "</table>";
   
-    echo "<table id='rounded-corner' summary='DevsSummary' align='center'>";
-    echo create_devs_header();
-    echo process_devs_disp($host_data);
-    echo "</table>";
-  }
-}
-?>
+				echo "<table id='rounded-corner' summary='DevsSummary' align='center'>";
+				echo create_devs_header();
+				echo process_devs_disp($host_data);
+				echo "</table>";
+				}
+				}
+				?>
 
 <form name=save action="addhost.php" method="post">
-
-<table id="savetable" align=center>
-    <thead>
-    	<tr>
-        	<th scope="col" class="rounded-company">Name</th>
-            <th scope="col" class="rounded-q1">IP / Hostname</th>
-            <th scope="col" class="rounded-q1">Port</th>
-			<th scope="col" class="rounded-q1"><?php if($Hash_Method=='scrypt'){echo "KH/s";}else{ echo "MH/s";}?> desired</th>
-        </tr>
-        <tr>
-        <td align=center><input type="text" name="macname" value=""></td>
-        <td align=center><input type="text" name="ipaddress" value=""></td>
-        <td align=center><input type="text" name="port" value="4028"></td>
-        <td align=center><input type="text" name="mhash" value=""></td>
-        </tr>
-        <tr>
-        <td colspan=4 align=center><input type=hidden name="savehostid" value="<?php echo $id; ?>"><input type="submit" value="Save"></td>
-        </tr>
-    </thead>
-</table>
-
+	<table id="savetable" align=center>
+		<thead>
+			<tr>
+				<th scope="col" class="rounded-company">Name</th>
+				<th scope="col" class="rounded-q1">IP / Hostname</th>
+				<th scope="col" class="rounded-q1">Port</th>
+				<th scope="col" class="rounded-q1"><?php if($Hash_Method=='scrypt'){echo "KH/s";}else{ echo "MH/s";}?> desired</th>
+			</tr>
+			<tr>
+				<td align=center><input type="text" name="macname" value=""></td>
+				<td align=center><input type="text" name="ipaddress" value=""></td>
+				<td align=center><input type="text" name="port" value="4028"></td>
+				<td align=center><input type="text" name="mhash" value=""></td>
+			</tr>
+			<tr>
+				<td colspan=4 align=center><input type=hidden name="savehostid" value="<?php echo $id; ?>"><input type="submit" value="Save"></td>
+			</tr>
+		</thead>
+	</table>
 </form>
 
 <p align=center>
