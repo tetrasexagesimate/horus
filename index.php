@@ -114,10 +114,6 @@ $config = get_config_data();
              </div>
 		</div>
     </div>
-	
-	<!-- <div id="slider">
-      <img src="http://placehold.it/1000x400&text=[ img 1 ]" />
-    </div> -->
     
     <hr />
     </div>
@@ -130,7 +126,8 @@ $config = get_config_data();
     <div class="large-12 columns">
     
       <div class="panel">
-        <h4>Get in touch!</h4>
+        <?php include("footer.inc.php"); ?>
+		<!-- <h4>Get in touch!</h4>
             
         <div class="row">
           <div class="large-9 columns">
@@ -139,17 +136,17 @@ $config = get_config_data();
           <div class="large-3 columns">
             <a href="#" class="radius button right">Contact Us</a>
           </div>
-        </div>
+        </div> -->
       </div>
       
     </div>
   </div>
-<div id="templatemo_footer_wrapper">
+<!-- <div id="templatemo_footer_wrapper">
     <div id="templatemo_footer">
-        <?php include("footer.inc.php"); ?>
+        
         <div class="cleaner"></div>
     </div>
-</div> 
+</div> --> 
 
 <script src="/js/vendor/jquery.js"></script>
 <script src="/js/vendor/fastclick.js"></script>
