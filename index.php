@@ -29,10 +29,12 @@ $config = get_config_data();
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Anubis - a cgminer web frontend</title>
+<title>Horus - Rule of All</title>
 
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/foundation.css">
 
 <script type="text/javascript" src="scripts/jquery.min.js"></script>
 <script src="js/vendor/modernizr.js"></script>
