@@ -75,7 +75,6 @@ $config = get_config_data();
 				<div class="tabs-content">
 					<div class="content active" id="panel2-1">
 						<?php include ('miners.inc.php'); ?>
-						<p>Bingo</p>
 					</div>
 					<div class="content" id="panel2-2">
 						<?php include ('devices.inc.php'); ?>
@@ -115,7 +114,7 @@ $config = get_config_data();
 			<a href="#" data-dropdown="drop" class="button dropdown">Action</a><br>
 			<ul id="drop" data-dropdown-content class="f-dropdown">
 				<li><a href="addhost.php">Add a New Miner</a></li>
-				<li><a href="#">This is another</a></li>
+				<li><a href="#" data-reveal-id="myModal" data-reveal>This is another</a></li>
 				<li><a href="#">Yet another</a></li>
 				<li><a href="config.php">Configuration</a></li>
 				<li><a href="faq.php">FAQ</a></li>
