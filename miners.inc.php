@@ -54,12 +54,16 @@
 										</div>
 									</div>
 									<div class="row">
-									<p>24h Chart</p>
+										<div class="panel callout radius">
+											<p>24h Chart</p>
+										</div>
 									</div>
 								</div>
 							</div>
 							<div class="row">
-							<p>Miner Device details</p> 
+								<div class="panel callout radius">
+									<p>Miner Device details</p>
+								</div> 
 							</div>
 							<a class="close-reveal-modal">&#215;</a>
 						</div>
