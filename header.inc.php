@@ -7,8 +7,7 @@ $pages = array("Home" => "index.php",
 
 $page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 ?>
-<div id="templatemo_header">
-	<div class="contian-to-grid">
+<div class="contian-to-grid">
 		<nav class="top-bar" data-topbar>
 			<ul class="title-area">
 				<li class="name">
@@ -35,6 +34,8 @@ $page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 			</section>
 		</nav>
 	</div>
+	
+<div id="templatemo_header">
     <div id="site_title"><h1><a href="index.php">Main</a></h1></div>
 
     <div id="templatemo_menu" class="ddsmoothmenu">
