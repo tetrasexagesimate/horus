@@ -128,6 +128,7 @@ $config = get_config_data();
  <div class="row">
   <!-- Main Page Content and Sidebar -->
     <div class="small-9 columns">
+		<div class="row">
 		<div class="small-12 columns">
 			<dl class="tabs" data-tab>
 				<dd class="active"><a href="#panel2-1">Miners</a></dd>
@@ -137,7 +138,8 @@ $config = get_config_data();
 			</dl>
 			<div class="tabs-content">
 				<div class="content active" id="panel2-1">
-					<?php include ('miners.inc.php'); ?>
+					<!-- <?php include ('miners.inc.php'); ?> -->
+					<p>Bingo</p>
 				</div>
 				<div class="content" id="panel2-2">
 					<?php include ('devices.inc.php'); ?>
@@ -149,6 +151,7 @@ $config = get_config_data();
 					<?php include ('settings.inc.php'); ?>
 				</div>
 			</div>
+		</div>
 		</div>
  
     <!-- End Main Content -->
