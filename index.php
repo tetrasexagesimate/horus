@@ -128,33 +128,34 @@ $config = get_config_data();
  
   <!-- Main Page Content and Sidebar -->
  
-  <div class="row">
- <dl class="tabs" data-tab>
-  <dd class="active"><a href="#panel2-1">Miners</a></dd>
-  <dd><a href="#panel2-2">Devices</a></dd>
-  <dd><a href="#panel2-3">Charts</a></dd>
-  <dd><a href="#panel2-4">Settings</a></dd>
-</dl>
-<div class="tabs-content">
-  <div class="content active" id="panel2-1">
-    <?php include ('miner.inc.php'); ?>
-	<p>First panel content goes here...</p>
-  </div>
-  <div class="content" id="panel2-2">
-    <?php include ('devices.inc.php'); ?>
-	<p>Second panel content goes here...</p>
-  </div>
-  <div class="content" id="panel2-3">
-    <?php include ('charts.inc.php'); ?>
-	<p>Third panel content goes here...</p>
-  </div>
-  <div class="content" id="panel2-4">
-    <?php include ('settings.inc.php'); ?>
-	<p>Fourth panel content goes here...</p>
-  </div>
-</div>
+  
     <!-- Main Blog Content -->
     <div class="large-9 columns" role="content">
+		<div class="row">
+			<dl class="tabs" data-tab>
+				<dd class="active"><a href="#panel2-1">Miners</a></dd>
+				<dd><a href="#panel2-2">Devices</a></dd>
+				<dd><a href="#panel2-3">Charts</a></dd>
+				<dd><a href="#panel2-4">Settings</a></dd>
+			</dl>
+			<div class="tabs-content">
+				<div class="content active" id="panel2-1">
+					<?php include ('miner.inc.php'); ?>
+					<p>First panel content goes here...</p>
+				</div>
+				<div class="content" id="panel2-2">
+					<?php include ('devices.inc.php'); ?>
+					<p>Second panel content goes here...</p>
+				</div>
+				<div class="content" id="panel2-3">
+					<?php include ('charts.inc.php'); ?>
+					<p>Third panel content goes here...</p>
+				</div>
+				<div class="content" id="panel2-4">
+					<?php include ('settings.inc.php'); ?>
+					<p>Fourth panel content goes here...</p>
+				</div>
+			</div>
 		<div class="row">
 			<div class="small-4 columns">
 				<img src="http://placehold.it/400x300&text=[img]" />
