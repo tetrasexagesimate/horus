@@ -18,13 +18,22 @@
 							<h5>Miner Details</h5>
 								<div class="small-3 columns">
 									<div class="row">
-									<p>Miner expected Rate</p>
+										<div class="panel callout radius">
+											<h5>This is a callout panel.</h5>
+											<p>Miner expected Rate</p>
+										</div>	
 									</div>
 									<div class="row">
-									<p>Avg. Hashrate</p>
+										<div class="panel callout radius">
+											<h5>This is a callout panel.</h5>
+											<p>Avg. Hashrate</p>
+										</div>
 									</div>
 									<div class="row">
-									<p>Controls</p>
+										<div class="panel callout radius">
+											<h5>This is a callout panel.</h5>
+											<p>Controls</p>
+										</div>
 									</div>
 								</div>
 								<div class="small-9 columns">
