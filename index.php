@@ -90,10 +90,7 @@ $config = get_config_data();
 	<div>
     	<div>
         	<div>
-            	<h2>Hosts</h2>
-				 <a href="allgpus.php">Expand all Hosts</a>
-                <div class="small-12 small-centered columns">
-
+            	<div class="small-12 small-centered columns">
 				<?php
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
 				if ($result)
@@ -112,6 +109,7 @@ $config = get_config_data();
                 <div class="row">
 					<div class="small-1 small-centered columns">
 						<a href="addhost.php" class="button radius">Add Host</a>
+						<a href="addgpus.php" class="button radius">Expand All Hosts</a>
 					</div>
 				</div>
              </div>
