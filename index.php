@@ -160,18 +160,7 @@ $config = get_config_data();
 				else 
 					{echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";}
 				?>
-<hr />
-<?php
-	$result2 = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
-?>
-<?php
-	$host_data2 = $result2->fetch(PDO::FETCH_ASSOC);
-?>
-<?php
-	$string = var_export($host_data2, true);
-	echo $string;
-?>
-<hr />
+
 <div class="row">
     <div class="small-12 columns">
        	<div class="small-12 columns">
