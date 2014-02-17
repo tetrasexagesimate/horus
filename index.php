@@ -187,16 +187,18 @@ $config = get_config_data();
         <p>5s rate</p>
 		<p>Avg</p>
       </div>
-	  <ul class="side-nav">
-        <li><a href="#">News</a></li>
-        <li><a href="#">Code</a></li>
-        <li><a href="#">Design</a></li>
-        <li><a href="#">Fun</a></li>
-        <li><a href="#">Weasels</a></li>
-      </ul>
- 
-      
- 
+	  <div class="panel">
+        <h5>x Miners</h5>
+        <p>x Active (y devices)</p>
+		<p>x Inactive (y devices)</p>
+		<p>x Unavailable</p>
+		<a href="#" data-dropdown="drop" class="button dropdown">Action</a><br>
+			<ul id="drop" data-dropdown-content class="f-dropdown">
+				<li><a href="#">Add a New Miner</a></li>
+				<li><a href="#">This is another</a></li>
+				<li><a href="#">Yet another</a></li>
+			</ul>
+      </div>
     </aside>
  
     <!-- End Sidebar -->
