@@ -50,17 +50,17 @@ $config = get_config_data();
 <!-- End Header and Nav -->
 <!-- Three-up Content Blocks -->
 <div class="row">
-	<div class="large-4 columns">
+	<div class="small-4 columns">
 		<img src="http://placehold.it/400x300&text=[img]" />
 		<h4>This is a content section.</h4>
 		<p>Bacon</p>
 	</div>
-    <div class="large-4 columns">
+    <div class="small-4 columns">
 		<img src="http://placehold.it/400x300&text=[img]" />
 		<h4>This is a content section.</h4>
 		<p>Bacon</p>
     </div>
-    <div class="large-4 columns">
+    <div class="small-4 columns">
 		<img src="http://placehold.it/400x300&text=[img]" />
 		<h4>This is a content section.</h4>
 		<p>Bacon</p>
