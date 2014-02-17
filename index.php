@@ -88,7 +88,7 @@ $config = get_config_data();
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
 				if ($result)
 					{
-					echo "<table id='rounded-corner' summary='Hostsummary'>";
+					echo "<table summary='Hostsummary'>";
 					echo create_host_header();
 				while ($host_data = $result->fetch(PDO::FETCH_ASSOC))
 					echo get_host_summary($host_data);
