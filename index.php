@@ -136,7 +136,7 @@ $config = get_config_data();
 				<dd><a href="#panel2-4">Settings</a></dd>
 			</dl>
 			<div class="tabs-content">
-				<div class="content active" id="panel2-1">
+				<div class="content" id="panel2-1">
 					<?php include ('miners.inc.php'); ?>
 					<p>First panel content goes here...</p>
 				</div>
