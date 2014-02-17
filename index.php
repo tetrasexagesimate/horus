@@ -68,11 +68,7 @@ $config = get_config_data();
 </div>
  
 <!-- First Band (Slider) -->
- 
- <div class="row">
-    <div class="small-12 columns">
-       	<div class="small-12 columns">
-			<?php
+ <?php
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
 				if ($result)
 					{
@@ -86,6 +82,10 @@ $config = get_config_data();
 				else 
 					{echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";}
 				?>
+ <div class="row">
+    <div class="small-12 columns">
+       	<div class="small-12 columns">
+			
 		</div>
                 
 		<div class="row">
