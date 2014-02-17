@@ -8,9 +8,8 @@
 				<p>Avg rate</p>
 					<div class="button-bar">
 						<ul class="button-group round">
-							<li><a href="#" class="tiny button secondary">Start</a></li>
+							<li><a href="#" class="tiny button secondary">ReStart</a></li>
 							<li><a href="#" class="tiny button secondary">Stop</a></li>
-							<li><a href="#" class="tiny button secondary">Restart</a></li>
 						</ul>
 					</div>
 				</div>
