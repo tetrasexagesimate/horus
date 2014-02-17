@@ -135,7 +135,51 @@ else
  
   <div class="row">
     <div class="large-12 columns">
-    <div id="slider">
+    
+	<div id="templatemo_main">
+    	<div class="col_fw">
+        	<div class="templatemo_megacontent">
+            	<h2>Hosts</h2>
+				 <a href="allgpus.php">Expand all Hosts</a>
+                <div class="cleaner h20"></div>
+
+<?php
+
+
+$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
+if ($result)
+{
+    echo "<table id='rounded-corner' summary='Hostsummary'>";
+
+    echo create_host_header();
+	while ($host_data = $result->fetch(PDO::FETCH_ASSOC))
+        echo get_host_summary($host_data);
+    echo create_totals();
+
+	echo "</table>";
+}
+else 
+{
+	echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";
+}
+
+?>
+
+                <table align=center><tr><td align=center><a href="addhost.php"><img src="images/add.png" border=0></a></td><td>Add host</td></tr></table>
+
+                
+                <div class="cleaner h20"></div>
+<!--                 <a href="#" class="more float_r"></a> -->
+            </div>
+
+            <div class="cleaner"></div>
+		</div>
+
+        <div class="cleaner"></div>
+        </div>
+    </div>
+	
+	<div id="slider">
       <img src="http://placehold.it/1000x400&text=[ img 1 ]" />
     </div>
     
