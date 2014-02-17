@@ -94,29 +94,23 @@ ddsmoothmenu.init({
         	<div>
             	<h2>Hosts</h2>
 				 <a href="allgpus.php">Expand all Hosts</a>
-                <div class="cleaner h20"></div>
+                <div>
 
-<?php
-
-
-$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
-if ($result)
-{
-    echo "<table id='rounded-corner' summary='Hostsummary'>";
-
-    echo create_host_header();
-	while ($host_data = $result->fetch(PDO::FETCH_ASSOC))
-        echo get_host_summary($host_data);
-    echo create_totals();
-
-	echo "</table>";
-}
-else 
-{
-	echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";
-}
-
-?>
+				<?php
+					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
+				if ($result)
+					{
+					echo "<table id='rounded-corner' summary='Hostsummary'>";
+					echo create_host_header();
+				while ($host_data = $result->fetch(PDO::FETCH_ASSOC))
+					echo get_host_summary($host_data);
+					echo create_totals();
+				echo "</table>";
+					}
+				else 
+					{echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";}
+				?>
+				</div>
 
                 <table align=center><tr><td align=center><a href="addhost.php"><img src="images/add.png" border=0></a></td><td>Add host</td></tr></table>
 
