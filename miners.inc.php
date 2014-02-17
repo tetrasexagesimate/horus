@@ -8,10 +8,10 @@
 				<p>Avg</p>
 				</div>
 				<div class="button-bar">
-					<ul class="button-group roun]">
-						<li><a href="#" class="tiny button">Button 1</a></li>
-						<li><a href="#" class="tiny button">Button 2</a></li>
-						<li><a href="#" class="tiny button">Button 3</a></li>
+					<ul class="button-group round">
+						<li><a href="#" class="tiny button secondary">Button 1</a></li>
+						<li><a href="#" class="tiny button secondary">Button 2</a></li>
+						<li><a href="#" class="tiny button secondary">Button 3</a></li>
 					</ul>
 				</div>
 			</div>
