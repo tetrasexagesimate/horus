@@ -71,7 +71,7 @@ $config = get_config_data();
  
  <div class="row">
     <div class="small-12 columns">
-       	<div class="small-12 small-centered columns">
+       	<div class="small-12 columns">
 			<?php
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
 				if ($result)
