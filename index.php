@@ -105,10 +105,12 @@ $config = get_config_data();
 				</div>
                 <div class="row">
 					<div class="small-1 small-centered columns">
-						<a href="addhost.php" class="button radius">Add Host</a>
-					</div>
-					<div class="small-1 small-centered columns">
-						<a href="addgpus.php" class="button radius">Expand All Hosts</a>
+						<div class="button-bar">
+							<ul class="button-group">
+								<li><a href="addhost.php" class="small button">Add Host</a></li>
+								<li><a href="allgpus.php" class="small button">Expand Hosts</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
              </div>
