@@ -39,32 +39,9 @@ $config = get_config_data();
 <script type="text/javascript" src="scripts/jquery.min.js"></script>
 <script src="js/vendor/modernizr.js"></script>
 <script src="js/foundation.min.js"></script>
-<script type="text/javascript" src="scripts/ddsmoothmenu.js">
-
-
-/***********************************************
-* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
-***********************************************/
-
-</script>
-
-
-<script type="text/javascript">
-
-ddsmoothmenu.init({
-	mainmenuid: "templatemo_menu", //menu DIV id
-	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
-	classname: 'ddsmoothmenu', //class added to menu's outer DIV
-	//customtheme: ["#1c5a80", "#18374a"],
-	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
-})
-
-</script>
-
 
 </head>
+
 <body>
  
  <div class="row">
@@ -94,7 +71,7 @@ ddsmoothmenu.init({
         	<div>
             	<h2>Hosts</h2>
 				 <a href="allgpus.php">Expand all Hosts</a>
-                <div class="small-11 small-centered columns">
+                <div class="small-12 small-centered columns">
 
 				<?php
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
@@ -120,9 +97,9 @@ ddsmoothmenu.init({
 		</div>
     </div>
 	
-	<div id="slider">
+	<!-- <div id="slider">
       <img src="http://placehold.it/1000x400&text=[ img 1 ]" />
-    </div>
+    </div> -->
     
     <hr />
     </div>
