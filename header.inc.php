@@ -20,9 +20,12 @@ $page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 			<ul class="right">
 				<li class="active"><a href="#">Right Button Active</a></li>
 					<li class="has-dropdown">
-						<a href="#">Right Button with Dropdown</a>
+						<a href="#">Menu</a>
 						<ul class="dropdown">
-							<li><a href="#">First link in dropdown</a></li>
+							<li><a href="accounts.php">Accounts</a></li>
+							<li><a href="config.php">Configuration</a></li>
+							<li><a href="faq.php">FAQ</a></li>
+							<li><a href="contact.php">Contact/Donate</a></li>
 						</ul>
 					</li>
 			</ul>
