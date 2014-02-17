@@ -94,7 +94,7 @@ ddsmoothmenu.init({
         	<div>
             	<h2>Hosts</h2>
 				 <a href="allgpus.php">Expand all Hosts</a>
-                <div>
+                <div class="small-1 small-centered columns>
 
 				<?php
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
@@ -111,19 +111,10 @@ ddsmoothmenu.init({
 					{echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";}
 				?>
 				</div>
-
                 <div class="row">
 					<div class="small-1 small-centered columns">
 						<a href="addhost.php" class="button radius">Add Host</a>
 					</div>
-				<table align=center>
-					<tr>
-						<td align=center>
-							<a href="addhost.php"><img src="images/add.png" border=0></a>	
-						</td>
-						<td>Add host</td>
-					</tr>
-				</table>
 				</div>
              </div>
 		</div>
