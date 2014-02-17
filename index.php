@@ -70,13 +70,13 @@ $config = get_config_data();
 <!-- First Band (Slider) -->
  
  <div class="row">
-    <div class="large-12 columns">
+    <div class="small-12 columns">
        	<div class="small-12 small-centered columns">
 			<?php
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
 				if ($result)
 					{
-					echo "<table>";
+					echo "<table width: 100%;>";
 					echo create_host_header();
 				while ($host_data = $result->fetch(PDO::FETCH_ASSOC))
 					echo get_host_summary($host_data);
