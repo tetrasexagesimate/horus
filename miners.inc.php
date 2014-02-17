@@ -19,19 +19,16 @@
 								<div class="small-3 columns">
 									<div class="row">
 										<div class="panel callout radius">
-											<h5>This is a callout panel.</h5>
 											<p>Miner expected Rate</p>
 										</div>	
 									</div>
 									<div class="row">
 										<div class="panel callout radius">
-											<h5>This is a callout panel.</h5>
 											<p>Avg. Hashrate</p>
 										</div>
 									</div>
 									<div class="row">
 										<div class="panel callout radius">
-											<h5>This is a callout panel.</h5>
 											<p>Controls</p>
 										</div>
 									</div>
@@ -39,14 +36,20 @@
 								<div class="small-9 columns">
 									<div class="row">
 										<div class="small-9 columns">
-										<p>Mining Coin name @ Address</p>
+											<div class="panel callout radius">
+												<p>Mining Coin name @ Address</p>
+											</div>
 										</div>
 										<div class="small-3 columns">
 											<div class="row">
-											<p>Settings</p>
+												<div class="panel callout radius">
+													<p>Settings</p>
+												</div>
 											</div>
 											<div class="row">
-											<p>Refresh buttons </p>
+												<div class="panel callout radius">
+													<p>Refresh</p>
+												</div>
 											</div>
 										</div>
 									</div>
