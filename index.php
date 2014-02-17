@@ -168,7 +168,8 @@ $config = get_config_data();
 	$host_data2 = $result2->fetch(PDO::FETCH_ASSOC);
 ?>
 <?php
-	echo $host_data2;
+	$string = var_export($host_data2, true);
+	echo $string;
 ?>
 <hr />
 <div class="row">
