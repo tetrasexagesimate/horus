@@ -66,12 +66,7 @@ ddsmoothmenu.init({
 
 </head>
 <body>
-
-
-
-<?php include ('header.inc.php'); ?>
-    
-
+ 
  <div class="row">
     <?php include ('header.inc.php'); ?>
 	<div class="large-3 columns">
@@ -94,9 +89,9 @@ ddsmoothmenu.init({
   <div class="row">
     <div class="large-12 columns">
     
-	<div id="templatemo_main">
-    	<div class="col_fw">
-        	<div class="templatemo_megacontent">
+	<div>
+    	<div>
+        	<div>
             	<h2>Hosts</h2>
 				 <a href="allgpus.php">Expand all Hosts</a>
                 <div class="cleaner h20"></div>
