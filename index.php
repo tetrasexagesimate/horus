@@ -94,7 +94,7 @@ $config = get_config_data();
 						<?php include ('charts.inc.php'); ?>
 					</div>
 					<div class="content" id="panel2-4">
-						<?php include ('config2.php'); ?>
+						<?php include ('config3.php'); ?>
 					</div>
 				</div>
 			</div>
