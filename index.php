@@ -46,19 +46,7 @@ $config = get_config_data();
  
  <div class="row">
     <?php include ('header.inc.php'); ?>
-	<div class="large-3 columns">
-      <h1><img src="http://placehold.it/400x100&text=Logo" /></h1>
-    </div>
-    <div class="large-9 columns">
-      <ul class="right button-group">
-      <li><a href="#" class="button">Link 1</a></li>
-      <li><a href="#" class="button">Link 2</a></li>
-      <li><a href="#" class="button">Link 3</a></li>
-      <li><a href="#" class="button">Link 4</a></li>
-      </ul>
-     </div>
-   </div>
-  
+	  
 <!-- End Header and Nav -->
 <!-- Three-up Content Blocks -->
 <div class="row">
