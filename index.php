@@ -81,14 +81,10 @@ $config = get_config_data();
  
 <!-- First Band (Slider) -->
  
-  <div class="row">
+ <div class="row">
     <div class="large-12 columns">
-    
-	<div>
-    	<div>
-        	<div>
-            	<div class="small-12 small-centered columns">
-				<?php
+       	<div class="small-12 small-centered columns">
+			<?php
 					$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
 				if ($result)
 					{
@@ -102,26 +98,23 @@ $config = get_config_data();
 				else 
 					{echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";}
 				?>
-				</div>
-                <div class="row">
-					<div class="small-2 large-4 columns"></div>
-					<div class="small-4 large-4 columns">
-						<div class="button-bar">
-							<ul class="button-group">
-								<li><a href="addhost.php" class="small button">Add Host</a></li>
-								<li><a href="allgpus.php" class="small button">Expand Hosts</a></li>
-							</ul>
-						</div>
+		</div>
+                
+		<div class="row">
+			<div class="small-2 large-4 columns">...</div>
+				<div class="small-4 large-4 columns">
+					<div class="button-bar">
+						<ul class="button-group">
+							<li><a href="addhost.php" class="small button">Add Host</a></li>
+							<li><a href="allgpus.php" class="small button">Expand Hosts</a></li>
+						</ul>
 					</div>
-					<div class="small-6 large-4 columns"></div>
 				</div>
-             </div>
+				<div class="small-6 large-4 columns">...</div>
+			</div>
 		</div>
     </div>
-    
-    <hr />
-    </div>
-  </div>
+</div>
   
 
     
