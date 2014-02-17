@@ -15,7 +15,7 @@
 						</ul>
 						<div id="panelModal0" class="reveal-modal" data-reveal>
 							<div class="row">
-							<h5>Add a Miner</h5>
+							<h5>Miner Details</h5>
 								<div class="small-3 columns">
 									<div class="row">
 									<p>Miner expected Rate</p>
@@ -47,6 +47,7 @@
 								</div>
 							</div>
 							<div class="row">
+							<p>Miner Device details</p> 
 							</div>
 							<a class="close-reveal-modal">&#215;</a>
 						</div>
