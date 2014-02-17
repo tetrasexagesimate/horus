@@ -18,29 +18,28 @@ $page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 			<section class="top-bar-section">
 			<!-- Right Nav Section -->
 			<ul class="right">
-				<li class="active"><a href="#">Right Button Active</a></li>
 					<li class="has-dropdown">
-						<a href="#">Menu</a>
-						<ul class="dropdown">
-							<li><a href="accounts.php">Accounts</a></li>
-							<li><a href="config.php">Configuration</a></li>
-							<li><a href="faq.php">FAQ</a></li>
-							<li><a href="contact.php">Contact/Donate</a></li>
-						</ul>
-					</li>
+					<a href="#">Menu</a>
+					<ul class="dropdown">
+						<li><a href="accounts.php">Accounts</a></li>
+						<li><a href="config.php">Configuration</a></li>
+						<li><a href="faq.php">FAQ</a></li>
+						<li><a href="contact.php">Contact/Donate</a></li>
+					</ul>
+				</li>
 			</ul>
 			<!-- Left Nav Section -->
 				<ul class="left">
-					<li><a href="#">Click Here!</a></li>
 				</ul>
 			</section>
 		</nav>
 	</div>
+
 <div id="templatemo_wrapper">	
 <div id="templatemo_header">
     <div id="site_title"><h1><a href="index.php">Main</a></h1></div>
 
-    <div id="templatemo_menu" class="ddsmoothmenu">
+    <!--<div id="templatemo_menu" class="ddsmoothmenu">
       <ul>
 <?php
       foreach ($pages as $key => $value)
@@ -55,7 +54,7 @@ $page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 ?>
     </ul>
     <br style="clear: left" />
-  </div> <!-- end of templatemo_menu -->
+  </div> --> <!-- end of templatemo_menu -->
         
 </div> <!-- end of header -->
 
