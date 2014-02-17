@@ -35,6 +35,7 @@ $config = get_config_data();
 <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
 
 <script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script src="/js/vendor/modernizr.js"></script>
 <script type="text/javascript" src="scripts/ddsmoothmenu.js">
 
 
@@ -119,6 +120,8 @@ else
     </div>
 </div> 
 
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
 <script>
 $(function() {
   setInterval(update, 5000);
