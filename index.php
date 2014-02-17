@@ -156,11 +156,21 @@ $config = get_config_data();
 					echo get_host_summary($host_data);
 					echo create_totals();
 					echo "</table>";
-					echo $host_data;
 					}
 				else 
 					{echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";}
 				?>
+<hr />
+<?php
+	$result2 = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
+?>
+<?php
+	$host_data2 = $result2->fetch(PDO::FETCH_ASSOC);
+?>
+<?php
+	echo $host_data2;
+?>
+<hr />
 <div class="row">
     <div class="small-12 columns">
        	<div class="small-12 columns">
