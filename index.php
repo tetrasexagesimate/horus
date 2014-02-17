@@ -45,7 +45,7 @@ $config = get_config_data();
 <body>
  
  <div class="row">
-    <!-- <?php include ('header.inc.php'); ?> -->
+    <?php include ('headers.inc.php'); ?>
 	  
 <!-- End Header and Nav -->
 <!-- Call to Action Panel -->
