@@ -37,7 +37,10 @@ $config = get_config_data();
 <link rel="stylesheet" href="css/foundation.css">
 
 <script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/fastclick.js"></script>
 <script src="js/vendor/modernizr.js"></script>
+<script type="text/javascript" src="js/canvasjs.min.js"></script>
 <script src="js/foundation.min.js"></script>
 <script src="js/foundation/foundation.equalizer.js"></script>
 
@@ -172,14 +175,13 @@ $config = get_config_data();
     </div>
 </div>
 
-<script src="/js/vendor/jquery.js"></script>
-<script src="/js/vendor/fastclick.js"></script>
+
 
 <script>
   $(document).foundation();
 </script>
 
-<script type="text/javascript" src="js/canvasjs.min.js"></script>
+
 
 <script>
 $(function() {

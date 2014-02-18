@@ -149,13 +149,11 @@ window.onload = function () {
 			</div>
 		</div>
 		<div class="row">
-			<div class="small-12 columns">
-				<div class="panel">
-					<p>24h stack chart</p>
-					<div id="102" style="height: 300px; width: 100%;">
-					</div>
-					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/area/productivity_by_day/">Chart Source</a>
+			<div class="small-12 columns panel">
+				<p>24h stack chart</p>
+				<div id="102" style="height: 300px; width: 100%;">
 				</div>
+				<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/area/productivity_by_day/">Chart Source</a>
 			</div>
 		</div>
     </div>
