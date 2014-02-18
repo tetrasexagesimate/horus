@@ -4,8 +4,7 @@
 			<div class="small-6 columns">
 				<div class="panel">
 					<p>5s circle</p>
-					<p>Pie chart of all active Miners</p>
-					<p>http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/</p>
+					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
 					<script type="text/javascript">
 						window.onload = function () {
 							var chart = new CanvasJS.Chart("chartContainer",
@@ -60,8 +59,7 @@
 			<div class="small-12 columns">
 				<div class="panel">
 					<p>24h stack chart</p>
-					<p>This will be a stacked area chart.</p>
-					<p>http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/area/productivity_by_day/</p>
+					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/area/productivity_by_day/">Chart Source</a>
 				</div>
 			</div>
 		</div>
