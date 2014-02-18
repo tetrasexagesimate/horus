@@ -5,32 +5,29 @@
 				<div class="panel">
 					<p>5s circle</p>
 					<script type="text/javascript">
-						window.onload = function () {
-							var chart = new CanvasJS.Chart("chartContainer",
-							{
-								title:{
-									text: "Gaming Consoles Sold in 2012"
-									},
-								data: [
-									{
-									type: "pie",
-									showInLegend: false,
-									dataPoints: [
-										{  y: 4181563, legendText:"PS 3", indexLabel: "PlayStation 3" },
-										{  y: 2175498, legendText:"Wii", indexLabel: "Wii" },
-										{  y: 3125844, legendText:"Xbox", indexLabel: "Xbox 360" },
-										{  y: 1176121, legendText:"DS" , indexLabel: "Nintendo DS"},
-										{  y: 1727161, legendText:"PSP", indexLabel: "PSP" },
-										{  y: 4303364, legendText:"3DS" , indexLabel: "Nintendo 3DS"},
-										{  y: 1717786, legendText:"Vita" , indexLabel: "PS Vita"},
-									]
-									}
-								]
-							}
-						);
-						chart.render();
-						}
-					</script>
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+      title:{
+        text: "Top U.S Smartphone Operating Systems By Market Share, Q3 2012"
+      },
+      data: [
+      {
+       type: "doughnut",
+       dataPoints: [
+       {  y: 53.37, indexLabel: "Android" },
+       {  y: 35.0, indexLabel: "Apple iOS" },
+       {  y: 7, indexLabel: "Blackberry" },
+       {  y: 2, indexLabel: "Windows Phone" },
+       {  y: 5, indexLabel: "Others" }
+       ]
+     }
+     ]
+   });
+
+    chart.render();
+  }
+  </script>
 					<div id="chartContainer" style="height: 300px; width: 100%;">
 					</div>
 					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
