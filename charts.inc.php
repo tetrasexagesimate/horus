@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="small-12 columns">
 		<div class="row">
-			<div class="small-6 columns">
+			<div class="small-8 columns">
 				<div class="panel">
 					<p>5s circle</p>
 					<script type="text/javascript">
@@ -33,7 +33,7 @@
 					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
 				</div>
 			</div>
-			<div class="small-6 columns">
+			<div class="small-4 columns">
 				<div class="panel">
 					<p>Charts will go here</p>
 					<p>Charts will go here</p>
