@@ -138,18 +138,14 @@ window.onload = function () {
 <div class="row">
 	<div class="small-12 columns">
 		<div class="row" data-equalizer>
-			<div class="small-6 columns">
-				<div class="panel" data-equalizer>					
-					<div id="101" style="height: 300px; width: 100%;">
-					</div>
-					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
+			<div class="small-6 columns panel" data-equalizer>
+				<div id="101" style="height: 300px; width: 100%;">
 				</div>
+				<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
 			</div>
-			<div class="small-6 columns">
-				<div class="panel" data-equalizer>
-					<p>Charts will go here</p>
-					<p>This panel may have value for displaying current BTC/LTC exchange rates.</p>
-				</div>
+			<div class="small-6 columns panel" data-equalizer>
+				<p>Charts will go here</p>
+				<p>This panel may have value for displaying current BTC/LTC exchange rates.</p>
 			</div>
 		</div>
 		<div class="row">
