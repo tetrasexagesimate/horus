@@ -84,17 +84,14 @@ $config = get_config_data();
 					<dd><a href="#panel2-4">Settings</a></dd>
 				</dl>
 				<div class="tabs-content">
-					<div class="content active" id="panel2-1>
+					<div class="content active" id="panel2-1">
 						<?php include ('charts.inc.php'); ?>
 					</div>
 					<div class="content" id="panel2-2">
 						<?php include ('devices.inc.php'); ?>
 					</div>
-					<div class="content" id="panel2-3>
-						<?php include ('miners.inc.php'); ?>
-					</div>
 					<div class="content" id="panel2-3">
-						<?php include ('charts.inc.php'); ?>
+						<?php include ('miners.inc.php'); ?>
 					</div>
 					<div class="content" id="panel2-4">
 						<?php include ('config3.php'); ?>
