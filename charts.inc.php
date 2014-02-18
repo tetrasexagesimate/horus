@@ -52,7 +52,7 @@
 					<p>24h stack chart</p>
 					<script type="text/javascript">
 						window.onload = function () {
-							var chart = new CanvasJS.Chart("chart2Container",
+							var chart2 = new CanvasJS.Chart("chart2Container",
 							{
 							title: {
 								text: "24hr Global Mining"             
@@ -144,7 +144,7 @@
 								}
 								]
 							});
-							chart.render();
+							chart2.render();
 						}
 					</script>
 					<div id="chart2Container" style="height: 300px; width: 100%;">
