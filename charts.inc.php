@@ -4,7 +4,6 @@
 			<div class="small-6 columns">
 				<div class="panel">
 					<p>5s circle</p>
-					
 					<script type="text/javascript">
 						window.onload = function () {
 							var chart = new CanvasJS.Chart("chartContainer",
@@ -40,9 +39,9 @@
 						chart.render();
 						}
 					</script>
-					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
 					<div id="chartContainer" style="height: 300px; width: 100%;">
 					</div>
+					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
 				</div>
 			</div>
 			<div class="small-6 columns">
