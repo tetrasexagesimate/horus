@@ -100,15 +100,21 @@ $config = get_config_data();
 					<p>x Active (y devices)</p>
 					<p>x Inactive (y devices)</p>
 					<p>x Unavailable</p>
+							
+				</div>
+				<div class="panel">
+					<a href="#" class="button tiny" data-reveal-id="myModal0" data-reveal>Add a New Miner</a>
+					<a href="#" class="button">Configuration</a>
+					<a href="#" class="button">FAQ</a>
 					<a href="#" data-dropdown="drop" class="button dropdown">Action</a><br>
-					<ul id="drop" data-dropdown-content class="f-dropdown">
-						<li><a href="#" data-reveal-id="myModal0" data-reveal>Add a New Miner</a></li>
-						<li><a href="#" data-reveal-id="myModal1" data-reveal>This is another</a></li>
-						<li><a href="#" data-reveal-id="myModal2" data-reveal>Yet another</a></li>
-						<li><a href="#" data-reveal-id="myModal3" data-reveal>Configuration</a></li>
-						<li><a href="#" data-reveal-id="myModal4" data-reveal>FAQ</a></li>
-						<li><a href="#" data-reveal-id="myModal5" data-reveal>Contact/Donate</a></li>
-					</ul>			
+						<ul id="drop" data-dropdown-content class="f-dropdown">
+							<li><a href="#" data-reveal-id="myModal0" data-reveal>Add a New Miner</a></li>
+							<li><a href="#" data-reveal-id="myModal1" data-reveal>This is another</a></li>
+							<li><a href="#" data-reveal-id="myModal2" data-reveal>Yet another</a></li>
+							<li><a href="#" data-reveal-id="myModal3" data-reveal>Configuration</a></li>
+							<li><a href="#" data-reveal-id="myModal4" data-reveal>FAQ</a></li>
+							<li><a href="#" data-reveal-id="myModal5" data-reveal>Contact/Donate</a></li>
+						</ul>	
 				</div>
 			</div>
 		</div>
