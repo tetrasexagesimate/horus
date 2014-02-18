@@ -78,8 +78,8 @@ $config = get_config_data();
 
 		<div class="row">
 			<!-- Tab Selector -->
-			<div class="small-9 columns panel" data-equalizer>
-				<div class="row">
+			<div class="small-9 columns panel">
+				<div class="row" data-equalizer>
 					<div class="small-12 columns" >
 						<dl class="tabs" data-tab>
 							<dd class="active"><a href="#panel2-1">Charts</a></dd>
