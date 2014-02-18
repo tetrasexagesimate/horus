@@ -176,6 +176,7 @@ $config = get_config_data();
 <script>
   $(document).foundation();
 </script>
+
 <script>
 $(function() {
   setInterval(update, 5000);
