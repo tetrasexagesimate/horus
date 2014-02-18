@@ -133,21 +133,19 @@ window.onload = function () {
 	chart102.render();
 	chart102 = {};
   }
-  </script>
+</script>
   
 <div class="row">
 	<div class="small-12 columns">
 		<div class="row">
-			<div class="small-8 columns">
-				<div class="panel">
-					<p>5s circle</p>
-					
+			<div class="small-6 columns">
+				<div class="panel">					
 					<div id="101" style="height: 300px; width: 100%;">
 					</div>
 					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
 				</div>
 			</div>
-			<div class="small-4 columns">
+			<div class="small-6 columns">
 				<div class="panel">
 					<p>Charts will go here</p>
 					<p>Charts will go here</p>
