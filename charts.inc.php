@@ -6,36 +6,30 @@
 					<p>5s circle</p>
 					<script type="text/javascript">
 						window.onload = function () {
-							var chart = new CanvasJS.Chart("chartContainer",
-							{
-								title:{
-									text: "5s Miner"
-								},
-								legend:{
-									verticalAlign: "center",
-									horizontalAlign: "left",
-									fontSize: 20,
-									fontFamily: "Helvetica"        
-								},
-								theme: "theme2",
-								data: [   
-									type: "pie",       
-									indexLabelFontFamily: "Garamond",       
-									indexLabelFontSize: 20,
-									startAngle:-20,      
-									showInLegend: false,
-									toolTipContent:"{label}",
-									dataPoints: [
-									{  y: 83.24, legendText:"Google", label: "Google 83.3%" },
-									{  y: 8.16, legendText:"Yahoo!", label: "Yahoo! 8.16%" },
-									{  y: 4.67, legendText:"Bing", label: "Bing 4.67%" },
-									{  y: 1.67, legendText:"Baidu" , label: "Baidu 1.67%"},       
-									{  y: 0.98, legendText:"Others" , label: "Others .98%"}
-									]
-								]
-							});
-						chart.render();
-						}
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+      title:{
+        text: "Gaming Consoles Sold in 2012"
+      },
+       data: [
+      {
+         type: "pie",
+       showInLegend: true,
+       dataPoints: [
+       {  y: 4181563, legendText:"PS 3", indexLabel: "PlayStation 3" },
+       {  y: 2175498, legendText:"Wii", indexLabel: "Wii" },
+       {  y: 3125844, legendText:"Xbox", indexLabel: "Xbox 360" },
+       {  y: 1176121, legendText:"DS" , indexLabel: "Nintendo DS"},
+       {  y: 1727161, legendText:"PSP", indexLabel: "PSP" },
+       {  y: 4303364, legendText:"3DS" , indexLabel: "Nintendo 3DS"},
+       {  y: 1717786, legendText:"Vita" , indexLabel: "PS Vita"}
+       ]
+     }
+     ]
+   });
+
+    chart.render();
+  }
 					</script>
 					<div id="chartContainer" style="height: 300px; width: 100%;">
 					</div>
