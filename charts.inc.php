@@ -1,13 +1,13 @@
 <div class="row" data-equalizer-watch>
-	<div class="small-12 columns" role="content" data-equalizer-watch>
+	<div class="small-12 columns">
 		<div class="row" data-equalizer-watch>
-			<div class="small-6 columns" data-equalizer-watch>
+			<div class="small-6 columns">
 				<div class="panel" data-equalizer-watch>
 					<p>5s circle</p>
 				</div>
 			</div>
-			<div class="small-6 columns" data-equalizer-watch>
-				<div class="panel">
+			<div class="small-6 columns">
+				<div class="panel" data-equalizer-watch>
 					<p>Charts will go here</p>
 					<p>Charts will go here</p>
 					<p>Charts will go here</p>
