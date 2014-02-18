@@ -19,7 +19,7 @@
        {  y: 35.0, indexLabel: "Apple iOS" },
        {  y: 7, indexLabel: "Blackberry" },
        {  y: 2, indexLabel: "Windows Phone" },
-       {  y: 5, indexLabel: "Others" }
+       {  y: 5, indexLabel: "Others" },
        ]
      }
      ]
