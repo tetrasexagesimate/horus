@@ -156,8 +156,8 @@
 							chart.render();
 						}
 					</script>
-					<div id="chart2Container" style="height: 300px; width: 100%;">
-					</div>
+					<!-- <div id="chart2Container" style="height: 300px; width: 100%;">
+					</div> -->
 				</div>
 			</div>
 		</div>
