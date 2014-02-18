@@ -20,7 +20,7 @@ window.onload = function () {
 		}]
 	});
     chart1.render();
-	chart1 ={};
+	chart1 = {};
 	
 	var chart2 = new CanvasJS.Chart("chart2Container",{
 		title: {
@@ -126,7 +126,7 @@ window.onload = function () {
 				<div class="panel">
 					<p>5s circle</p>
 					
-					<div id="chartContainer" style="height: 300px; width: 100%;">
+					<div id="chart1" style="height: 300px; width: 100%;">
 					</div>
 					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
 				</div>
@@ -145,7 +145,7 @@ window.onload = function () {
 			<div class="small-12 columns">
 				<div class="panel">
 					<p>24h stack chart</p>
-					<div id="chart2Container" style="height: 300px; width: 100%;">
+					<div id="chart2" style="height: 300px; width: 100%;">
 					</div>
 					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/area/productivity_by_day/">Chart Source</a>
 				</div>
