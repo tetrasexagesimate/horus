@@ -39,6 +39,7 @@ $config = get_config_data();
 <script type="text/javascript" src="scripts/jquery.min.js"></script>
 <script src="js/vendor/modernizr.js"></script>
 <script src="js/foundation.min.js"></script>
+<script src="js/foundation/foundation.equalizer.js"></script>
 
 </head>
 
