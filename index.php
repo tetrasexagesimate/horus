@@ -78,9 +78,9 @@ $config = get_config_data();
 
 		<div class="row" data-equalizer>
 			<!-- Tab Selector -->
-			<div class="small-9 columns">
+			<div class="small-9 columns" data-equalizer-watch>
 				<div class="row">
-					<div class="small-12 columns" data-equalizer-watch>
+					<div class="small-12 columns" >
 						<dl class="tabs" data-tab>
 							<dd class="active"><a href="#panel2-1">Charts</a></dd>
 							<dd><a href="#panel2-2">Miners</a></dd>
