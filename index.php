@@ -50,13 +50,6 @@ $config = get_config_data();
  
 	<div class="row">
 		<?php include ('headers.inc.php'); ?>
-	  
-		<!-- End Header and Nav -->
-		<!-- Call to Action Panel -->
-
-
-		<!-- Nav Bar -->
-
 		<div class="row">
 			<hr />
 			<div id="myModal0" class="reveal-modal" data-reveal>
@@ -71,15 +64,9 @@ $config = get_config_data();
 				<a class="close-reveal-modal">&#215;</a>
 			</div>
 		</div>
-
-		<!-- End Nav -->
- 
-		<!-- Main Page Content and Sidebar -->
-
 		<div class="row">
-			<!-- Tab Selector -->
 			<div class="small-9 columns panel">
-				<div class="row" data-equalizer>
+				<div class="row">
 					<div class="small-12 columns" >
 						<dl class="tabs" data-tab>
 							<dd class="active"><a href="#panel2-1">Charts</a></dd>
@@ -96,12 +83,7 @@ $config = get_config_data();
 					</div>
 				</div>
 			</div>
-    
-			<!-- End Tab Selector -->
-  
-			<!-- Sidebar -->
- 
-			<div class="small-3 columns panel" data-equalizer-watch>
+    		<div class="small-3 columns panel">
 				<h5>Mining Farm</h5>
 				<div class="panel">
 					<h5>SHA-256 Hashrate</h5>
@@ -129,11 +111,7 @@ $config = get_config_data();
 					</ul>			
 				</div>
 			</div>
- 
-		<!-- End Sidebar -->
 		</div>
- 
-		<!-- End Main Content and Sidebar -->
 		<?php
 			$result = $dbh->query("SELECT * FROM hosts ORDER BY name ASC");
 			if ($result)
@@ -148,7 +126,6 @@ $config = get_config_data();
 			else 
 				{echo "No Hosts found, you might like to <a href=\"addhost.php\">add a host</a> ?<BR>";}
 		?>
-
 		<div class="row">
 			<div class="small-12 columns">
 				<div class="small-12 columns">
@@ -178,7 +155,7 @@ $config = get_config_data();
 
 
 <script>
-  $(document).foundation();
+$(document).foundation();
 </script>
 
 
