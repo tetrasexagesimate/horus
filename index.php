@@ -78,7 +78,7 @@ $config = get_config_data();
 
 		<div class="row" data-equalizer>
 			<!-- Tab Selector -->
-			<div class="small-9 columns" data-equalizer-watch>
+			<div class="small-9 columns panel" data-equalizer-watch>
 				<div class="row">
 					<div class="small-12 columns" >
 						<dl class="tabs" data-tab>
@@ -101,7 +101,7 @@ $config = get_config_data();
   
 			<!-- Sidebar -->
  
-			<aside class="small-3 columns panel" data-equalizer-watch>
+			<div class="small-3 columns panel" data-equalizer-watch>
 				<h5>Mining Farm</h5>
 				<div class="panel">
 					<h5>SHA-256 Hashrate</h5>
@@ -128,7 +128,7 @@ $config = get_config_data();
 						<li><a href="#" data-reveal-id="myModal5" data-reveal>Contact/Donate</a></li>
 					</ul>			
 				</div>
-			</aside>
+			</div>
  
 		<!-- End Sidebar -->
 		</div>
