@@ -76,7 +76,7 @@
 							},
 							toolTip: {
 								content: function(e){
-									var weekday =["Sun","Mon", "Tue", "Wed", "Thu","Fri","Sat"];
+									var weekday =["-6","-5", "-4", "-3", "-2","-1","Today"];
 									var  str1 = weekday[e.entries[0].dataPoint.x.getDay()] + "<br/>  <span style =' color:" + e.entries[0].dataSeries.color + "';>" +  e.entries[0].dataSeries.name + "</span>: <strong>"+ e.entries[0].dataPoint.y + " hrs</strong> <br/>" ; 
 									return str1
 								}
