@@ -76,9 +76,9 @@ $config = get_config_data();
  
 		<!-- Main Page Content and Sidebar -->
 
-		<div class="row" data-equalizer>
+		<div class="row">
 			<!-- Tab Selector -->
-			<div class="small-9 columns panel" data-equalizer-watch>
+			<div class="small-9 columns panel" data-equalizer>
 				<div class="row">
 					<div class="small-12 columns" >
 						<dl class="tabs" data-tab>
