@@ -47,7 +47,7 @@
 			<div class="small-12 columns">
 				<div class="panel">
 					<p>24h stack chart</p>
-					<!-- <script type="text/javascript">
+					<script type="text/javascript">
 						window.onload = function () {
 							var chart2 = new CanvasJS.Chart("chart2Container",
 							{
@@ -145,7 +145,7 @@
 						}
 					</script>
 					<div id="chart2Container" style="height: 300px; width: 100%;">
-					</div> -->
+					</div>
 					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/area/productivity_by_day/">Chart Source</a>
 				</div>
 			</div>
