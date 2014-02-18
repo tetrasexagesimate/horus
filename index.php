@@ -93,6 +93,9 @@ $config = get_config_data();
 					<div class="content" id="panel2-3>
 						<?php include ('miners.inc.php'); ?>
 					</div>
+					<div class="content" id="panel2-3">
+						<?php include ('charts.inc.php'); ?>
+					</div>
 					<div class="content" id="panel2-4">
 						<?php include ('config3.php'); ?>
 					</div>
