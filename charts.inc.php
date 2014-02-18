@@ -148,10 +148,7 @@ window.onload = function () {
 			<div class="small-6 columns">
 				<div class="panel">
 					<p>Charts will go here</p>
-					<p>Charts will go here</p>
-					<p>Charts will go here</p>
-					<p>Charts will go here</p>
-					<p>Charts will go here</p>
+					<p>This panel may have value for displaying current BTC/LTC exchange rates.</p>
 				</div>
 			</div>
 		</div>
