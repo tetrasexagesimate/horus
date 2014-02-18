@@ -18,8 +18,7 @@
 									fontFamily: "Helvetica"        
 								},
 								theme: "theme2",
-								data: [
-								{        
+								data: [   
 									type: "pie",       
 									indexLabelFontFamily: "Garamond",       
 									indexLabelFontSize: 20,
@@ -33,7 +32,6 @@
 									{  y: 1.67, legendText:"Baidu" , label: "Baidu 1.67%"},       
 									{  y: 0.98, legendText:"Others" , label: "Others .98%"}
 									]
-								}
 								]
 							});
 						chart.render();
@@ -58,7 +56,6 @@
 			<div class="small-12 columns">
 				<div class="panel">
 					<p>24h stack chart</p>
-					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/area/productivity_by_day/">Chart Source</a>
 					<script type="text/javascript">
 						window.onload = function () {
 							var chart = new CanvasJS.Chart("chart2Container",
@@ -156,8 +153,9 @@
 							chart.render();
 						}
 					</script>
-					<!-- <div id="chart2Container" style="height: 300px; width: 100%;">
-					</div> -->
+					<div id="chart2Container" style="height: 300px; width: 100%;">
+					</div>
+					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/area/productivity_by_day/">Chart Source</a>
 				</div>
 			</div>
 		</div>
