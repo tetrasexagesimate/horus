@@ -2,20 +2,20 @@
 window.onload = function () {
 	var chart101 = new CanvasJS.Chart("101",{
 		title:{
-			text: "Top U.S Smartphone Operating Systems By Market Share, Q3 2012"
+			text: "5s Hash Distribution"
 		},
 		data: [{
 			type: "doughnut",
 			dataPoints: [{
-				y: 53.37, indexLabel: "Android"
+				y: 53.37, indexLabel: "Avalon1"
 			},{
-				y: 35.0, indexLabel: "Apple iOS"
+				y: 35.0, indexLabel: "miner2"
 			},{
-				y: 7, indexLabel: "Blackberry"
+				y: 7, indexLabel: "ASIC"
 			},{
-				y: 2, indexLabel: "Windows Phone"
+				y: 2, indexLabel: "ASIC2"
 			},{
-				y: 5, indexLabel: "Others"
+				y: 5, indexLabel: "ASIC3"
 			}, ]
 		}]
 	});
