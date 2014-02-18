@@ -63,6 +63,11 @@ $config = get_config_data();
 				<p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
 				<a class="close-reveal-modal">&#215;</a>
 			</div>
+			<div id="myModal2" class="reveal-modal" data-reveal>
+				<h2>Awesome. I have it.</h2>
+				<iframe name="inlineframe" src="faq.php" frameborder="0" scrolling="auto" width="100%" height="50%" marginwidth="5" marginheight="5" ></iframe>
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
 		</div>
 		<div class="row">
 			<div class="small-9 columns panel">
