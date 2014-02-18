@@ -7,10 +7,10 @@
 					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
 					<script type="text/javascript">
 						window.onload = function () {
-							var chart = new CanvasJS.Chart("chartContainer",
+							var chart2 = new CanvasJS.Chart("chartContainer",
 							{
 								title:{
-									text: "Desktop Search Engine Market Share, Dec-2012"
+									text: "5s Miner"
 								},
 								legend:{
 									verticalAlign: "center",
@@ -38,7 +38,7 @@
 								]
 							});
 
-						chart.render();
+						chart2.render();
 						}
 					</script>
 					<div id="chartContainer" style="height: 300px; width: 100%;">
