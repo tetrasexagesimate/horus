@@ -4,10 +4,10 @@
 			<div class="small-6 columns">
 				<div class="panel">
 					<p>5s circle</p>
-					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
+					
 					<script type="text/javascript">
 						window.onload = function () {
-							var chart2 = new CanvasJS.Chart("chartContainer",
+							var chart = new CanvasJS.Chart("chartContainer",
 							{
 								title:{
 									text: "5s Miner"
@@ -37,10 +37,10 @@
 								}
 								]
 							});
-
-						chart2.render();
+						chart.render();
 						}
 					</script>
+					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
 					<div id="chartContainer" style="height: 300px; width: 100%;">
 					</div>
 				</div>
@@ -65,7 +65,7 @@
 							var chart = new CanvasJS.Chart("chart2Container",
 							{
 							title: {
-								text: "Productivity by Day"             
+								text: "24hr Global Mining"             
 							},
 							axisX:{      
 								valueFormatString: "DDD",
