@@ -1,6 +1,6 @@
 <script type="text/javascript">
 window.onload = function () {
-	var chart1 = new CanvasJS.Chart("chart1Container",{
+	var chart101 = new CanvasJS.Chart("101",{
 		title:{
 			text: "Top U.S Smartphone Operating Systems By Market Share, Q3 2012"
 		},
@@ -19,10 +19,10 @@ window.onload = function () {
 			}, ]
 		}]
 	});
-    chart1.render();
-	chart1 = {};
+    chart101.render();
+	chart101 = {};
 	
-	var chart2 = new CanvasJS.Chart("chart2Container",{
+	var chart102 = new CanvasJS.Chart("102",{
 		title: {
 			text: "24hr Global Mining"             
 		},
@@ -55,67 +55,83 @@ window.onload = function () {
 				x: new Date(2013, 02 , 19) , y: .8
 			},{
 				x: new Date(2013, 02 , 20) , y: 1.6
-			},{x: new Date(2013, 02 , 21) , y: 1.4  },
-									{x: new Date(2013, 02 , 22) , y: 1.4  },
-									{x: new Date(2013, 02 , 23) , y: 2.6  }
-								]
-								},
-								{        
-								name: "distracting",
-								showInLegend: true,
-								legendMarkerType: "square",
-								type: "stackedArea",
-								markerSize: 0,
-								color :"rgba(95,53,87,.8)",
-								dataPoints: [
-									{x: new Date(2013, 02 , 17) , y: 3.3  },
-									{x: new Date(2013, 02 , 18) , y: 1.6  },
-									{x: new Date(2013, 02 , 19) , y: 2.1  },
-									{x: new Date(2013, 02 , 20) , y: 1.6  },
-									{x: new Date(2013, 02 , 21) , y: 1.4  },
-									{x: new Date(2013, 02 , 22) , y: 1.7  },
-									{x: new Date(2013, 02 , 23) , y: 4.6  }
-								]
-								},
-            
-								{  
-								name: "productive",
-								showInLegend: true,
-								legendMarkerType: "square",
-								type: "stackedArea",
-								markerSize: 0,
-								color: "rgba(60,84,151,.9)",
-								dataPoints: [
-									{x: new Date(2013, 02 , 17) , y: 2.4  },
-									{x: new Date(2013, 02 , 18) , y:  2 },
-									{x: new Date(2013, 02 , 19) , y: 2.8  },
-									{x: new Date(2013, 02 , 20) , y: 1.6  },
-									{x: new Date(2013, 02 , 21) , y: 1.4  },
-									{x: new Date(2013, 02 , 22) , y: 1.4  },
-									{x: new Date(2013, 02 , 23) , y: 1.6  }
-								]
-								},
-								{  
-								name: "very productive",
-								showInLegend: true,
-								legendMarkerType: "square",
-								type: "stackedArea",
-								markerSize: 0,
-								color: "rgba(22,115,211,.9)",
-								dataPoints: [
-									{x: new Date(2013, 02 , 17) , y: .4  },
-									{x: new Date(2013, 02 , 18) , y: 7 },
-									{x: new Date(2013, 02 , 19) , y: 6.8  },
-									{x: new Date(2013, 02 , 20) , y: 4.6  },
-									{x: new Date(2013, 02 , 21) , y: 6.4  },
-									{x: new Date(2013, 02 , 22) , y: 7.4  },
-									{x: new Date(2013, 02 , 23) , y: 1.6  }
-								]
-								}
-								]
-							});
-	chart2.render();
-	chart2 = {};
+			},{
+				x: new Date(2013, 02 , 21) , y: 1.4
+			},{
+				x: new Date(2013, 02 , 22) , y: 1.4
+			},{
+				x: new Date(2013, 02 , 23) , y: 2.6
+			}, ]
+		},{        
+			name: "distracting",
+			showInLegend: true,
+			legendMarkerType: "square",
+			type: "stackedArea",
+			markerSize: 0,
+			color :"rgba(95,53,87,.8)",
+			dataPoints: [{
+				x: new Date(2013, 02 , 17) , y: 3.3
+			},{
+				x: new Date(2013, 02 , 18) , y: 1.6
+			},{
+				x: new Date(2013, 02 , 19) , y: 2.1
+			},{
+				x: new Date(2013, 02 , 20) , y: 1.6
+			},{
+				x: new Date(2013, 02 , 21) , y: 1.4
+			},{
+				x: new Date(2013, 02 , 22) , y: 1.7
+			},{
+				x: new Date(2013, 02 , 23) , y: 4.6
+			}, ]
+		},{  
+			name: "productive",
+			showInLegend: true,
+			legendMarkerType: "square",
+			type: "stackedArea",
+			markerSize: 0,
+			color: "rgba(60,84,151,.9)",
+			dataPoints: [{
+				x: new Date(2013, 02 , 17) , y: 2.4
+			},{
+				x: new Date(2013, 02 , 18) , y:  2
+			},{
+				x: new Date(2013, 02 , 19) , y: 2.8
+			},{
+				x: new Date(2013, 02 , 20) , y: 1.6
+			},{
+				x: new Date(2013, 02 , 21) , y: 1.4
+			},{
+				x: new Date(2013, 02 , 22) , y: 1.4
+			},{
+				x: new Date(2013, 02 , 23) , y: 1.6
+			},]
+		},{  
+			name: "very productive",
+			showInLegend: true,
+			legendMarkerType: "square",
+			type: "stackedArea",
+			markerSize: 0,
+			color: "rgba(22,115,211,.9)",
+			dataPoints: [{
+				x: new Date(2013, 02 , 17) , y: .4
+			},{
+				x: new Date(2013, 02 , 18) , y: 7
+			},{
+				x: new Date(2013, 02 , 19) , y: 6.8
+			},{
+				x: new Date(2013, 02 , 20) , y: 4.6
+			},{
+				x: new Date(2013, 02 , 21) , y: 6.4
+			},{
+				x: new Date(2013, 02 , 22) , y: 7.4
+			},{
+				x: new Date(2013, 02 , 23) , y: 1.6
+			},]
+		}]
+	});
+	chart102.render();
+	chart102 = {};
   }
   </script>
   
