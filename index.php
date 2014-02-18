@@ -178,6 +178,8 @@ $config = get_config_data();
   $(document).foundation();
 </script>
 
+<script type="text/javascript" src="/js/canvasjs.min.js"></script>
+
 <script>
 $(function() {
   setInterval(update, 5000);
