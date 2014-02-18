@@ -101,7 +101,7 @@ $config = get_config_data();
   
 			<!-- Sidebar -->
  
-			<aside class="small-3 columns" data-equalizer-watch>
+			<aside class="small-3 columns panel" data-equalizer-watch>
 				<h5>Mining Farm</h5>
 				<div class="panel">
 					<h5>SHA-256 Hashrate</h5>
