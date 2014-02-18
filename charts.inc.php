@@ -9,6 +9,10 @@
 			<div class="small-6 columns"data-equalizer-watch>
 				<div class="panel">
 					<p>Charts will go here</p>
+					<p>Charts will go here</p>
+					<p>Charts will go here</p>
+					<p>Charts will go here</p>
+					<p>Charts will go here</p>
 				</div>
 			</div>
 		</div>
