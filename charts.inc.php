@@ -24,7 +24,7 @@
 									indexLabelFontFamily: "Garamond",       
 									indexLabelFontSize: 20,
 									startAngle:-20,      
-									showInLegend: true,
+									showInLegend: false,
 									toolTipContent:"{label}",
 									dataPoints: [
 									{  y: 83.24, legendText:"Google", label: "Google 83.3%" },
