@@ -31,7 +31,7 @@
 						chart.render();
 						}
 					</script>
-					<div id="chartContainer">
+					<div id="chartContainer" style="height: 300px; width: 100%;">
 					</div>
 					<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/pie/search_engine_share/">Chart Source</a>
 				</div>
