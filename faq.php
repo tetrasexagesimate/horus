@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="small-12 columns panel">
 		<h2>FAQ</h2>
-		<table id="rounded-corner" summary="Hostsummary">
+		<table>
 			<thead>
 				<tr>
 					<th>Whats this ?</th>
