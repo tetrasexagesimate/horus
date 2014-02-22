@@ -154,6 +154,7 @@ window.onload = function () {
 				<div id="102" style="height: 300px; width: 100%;">
 				</div>
 				<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/area/productivity_by_day/">Chart Source</a>
+				<a href="http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/dynamic/realtime_line/">Live Data Example</a>
 			</div>
 		</div>
     </div>

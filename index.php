@@ -51,7 +51,7 @@ $config = get_config_data();
 	<div class="row">
 		<?php include ('headers.inc.php'); ?>
 		<div class="row">
-			<hr />
+			
 			<div id="myModal0" class="reveal-modal" data-reveal>
 				<h5>Add a Miner</h5>
 				<iframe name="inlineframe" src="addhost.mod.php" frameborder="0" scrolling="auto" width="100%" height="50%" marginwidth="5" marginheight="5" ></iframe>
@@ -80,13 +80,13 @@ $config = get_config_data();
 								</div>
 								<div class="row">
 									<h5>Something is wrong/does not work as expected.</h5>
-									<p>Since we are in a very early development stage of Anubis there will surely be bugs. I'll start a git repo in short for Anubis and hope this wil speed bugfixes up a little. For the moment, keep checking <a href="https://bitcointalk.org/index.php?board=42.0">https://bitcointalk.org/index.php?board=42.0</a> for new messages and/or bugfixes concerning Anubis</p>
+									<p>Since we are in a very early development stage of Horus there will surely be bugs. I'll start a <a href="https://github.com/tetraseagesimate/Horus/">git repo</a> in short for Horus and hope this will speed bugfixes. For the moment, keep checking the git wiki for new messages and/or bugfixes concerning Horus</p>
 								</div>
 								<div class="row">
 									<h5>Installation ?</h5>
-									<p>All you need is a php/mysql enabled host. This host has to be able to reach your miners by network i.e. you should be able to ping your miners from the php/mysql enabled host. Simple copy all the Anubis files into a directory of your choice into your webserver root and call it there like: http://my.host.com/anubis i.e.<BR>
+									<p>All you need is a php/mysql enabled host. This host has to be able to reach your miners by network i.e. you should be able to ping your miners from the php/mysql enabled host. Simple copy all the Anubis files into a directory of your choice into your webserver root and call it there like: http://my.host.com/horus i.e.<BR>
 									<BR>
-									Anubis will need a mysql user/password/database connection. Edit "config.inc.php" and change it to your needs. </p>
+									Horus will need a mysql user/password/database connection. Edit "config.inc.php" and change it to your needs. </p>
 								</div>
 							</div>
 						</div>
@@ -95,6 +95,22 @@ $config = get_config_data();
 				<a class="close-reveal-modal">&#215;</a>
 			</div>
 		</div>
+		<hr />
+		<div class="row">
+			<div class="small-3 columns panel">
+			<p>test</p>
+			</div>
+			<div class="small-3 columns panel">
+			<p>test2</p>
+			</div>
+			<div class="small-3 columns panel">
+			<p>test3</p>
+			</div>
+			<div class="small-3 columns panel">
+			<p>test4</p>
+			</div>
+		</div>
+		<hr />
 		<div class="row">
 			<div class="small-9 columns panel">
 				<div class="row">
