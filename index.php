@@ -110,7 +110,6 @@ $config = get_config_data();
 			<p>test4</p>
 			</div>
 		</div>
-		<hr />
 		<div class="row">
 			<div class="small-9 columns panel">
 				<div class="row">
