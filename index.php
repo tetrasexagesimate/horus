@@ -98,10 +98,10 @@ $config = get_config_data();
 		<hr />
 		<div class="row">
 			<div class="small-3 columns panel">
-			<p>test</p>
+			<p>Current BTC Price</p>
 			</div>
 			<div class="small-3 columns panel">
-			<p>test2</p>
+			<p>Current Ghs/BTC</p>
 			</div>
 			<div class="small-3 columns panel">
 			<p>test3</p>
