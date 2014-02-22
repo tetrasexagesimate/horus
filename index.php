@@ -64,7 +64,8 @@ $config = get_config_data();
 				<a class="close-reveal-modal">&#215;</a>
 			</div>
 			<div id="myModal2" class="reveal-modal" data-reveal>
-				<div class="row">
+				<?php include ('index.modal2.php'); ?>
+				<!-- <div class="row">
 				<h2>Awesome. I have it.</h2>
 					<div class="small-12 columns panel">
 					<h2>FAQ</h2>
@@ -92,7 +93,7 @@ $config = get_config_data();
 						</div>
 					</div>
 				</div>
-				<a class="close-reveal-modal">&#215;</a>
+				<a class="close-reveal-modal">&#215;</a> -->
 			</div>
 		</div>
 		<hr />
