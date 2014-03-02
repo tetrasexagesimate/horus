@@ -1,9 +1,9 @@
 <?php
 
-$dbdatabase = "anubis_db";
+$dbdatabase = "horus_db";
 
 /* MYSQL specific defines */
-$dbusername = "anubis";
+$dbusername = "horus";
 $dbpassword = "h3rakles";
 $dbhost = "localhost";
 /* End MYSQL specific defines */
@@ -47,7 +47,7 @@ function anubis_db_connect()
     }
 
     $primary_key = "int(3) NOT NULL AUTO_INCREMENT PRIMARY KEY";
-    $table_props = " ENGINE=MyISAM  DEFAULT CHARSET=latin1";
+    $table_props = " ENGINE=MyISAM  DEFAULT CHARSET=utf8";
     $show_tables = 'SHOW TABLES';
 
   }
