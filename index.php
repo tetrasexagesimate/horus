@@ -49,9 +49,7 @@ $config = get_config_data();
 <body>
  
 	<div class="row">
-		<?php include ('headers.inc.php'); ?>
 		<div class="row">
-			
 			<div id="myModal0" class="reveal-modal" data-reveal>
 				<h5>Add a Miner</h5>
 				<?php include ('index.modal0.php'); ?>
@@ -66,7 +64,7 @@ $config = get_config_data();
 		<hr />
 		<div class="row">
 			<div class="small-3 columns panel">
-			<p>Current BTC Price</p>
+				<div id="btc-quote"></div>         
 			</div>
 			<div class="small-3 columns panel">
 			<p>Current Ghs/BTC</p>
@@ -169,7 +167,7 @@ $config = get_config_data();
 $(document).foundation();
 </script>
 
-
+<script type="text/javascript" src="//cdn-gh.firebase.com/btcquote/embed.js"></script>
 
 <script>
 $(function() {
